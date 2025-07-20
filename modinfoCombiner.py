@@ -13,6 +13,8 @@ def get_mod_folders():
     # ]
     return [
         'DistrictIcons',
+        'NorthAmerica/ThuleKiviuq',
+        'Europe/GaulVercingetorix'
     ]
 
 def combine_modinfo_files():
@@ -76,5 +78,5 @@ def combine_modinfo_files():
     newFileStr += '</Mod>'
     with open('BBGExpanded.modinfo', 'w') as file:
         file.write(newFileStr)
-    
+
 combine_modinfo_files()
