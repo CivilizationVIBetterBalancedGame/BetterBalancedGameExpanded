@@ -7,10 +7,6 @@ def get_mod_folders():
     """
     Returns a list of all folders in the current directory whose names start with 'Mod'.
     """
-    # return [
-    #     name for name in os.listdir('.')
-    #     if os.path.isdir(name)
-    # ]
     return [
         'DistrictIcons',
         'NorthAmerica/ThuleKiviuq',
@@ -23,6 +19,7 @@ def combine_modinfo_files():
     author_dict = {}
     author_dict['Calcifer'] = 1
     author_dict['Apeul'] = 1
+    files_dict = {}
     for mod in get_mod_folders():
         modinfo_path = os.path.join(mod, "files.xml")
         if os.path.exists(modinfo_path):
@@ -30,17 +27,24 @@ def combine_modinfo_files():
                 data = file.read()
 
             Bs_data = BeautifulSoup(data, "xml")
-            
+
             file_tags = Bs_data.find_all("File")
             # Append the string in each File tag with the mod folder name
             for b in file_tags:
+                if b.string in files_dict:
+                    print(f'same file name used in {mod} and {files_dict[b.string]}: {b.string}')
                 b.string = f'{mod}/{b.string}'
-            
+
             lua_replace_tags = Bs_data.find_all("LuaReplace")
             for b in lua_replace_tags:
                 print(f'LuaReplace tag: {b}')
                 b.string = f'{mod}/{b.string}'
-            
+
+            for b in file_tags:
+                files_dict[b.string] = mod
+            for b in lua_replace_tags:
+                files_dict[b.string] = mod
+
             load_order_tags = Bs_data.find_all("LoadOrder")
             # Append the string in each File tag with the mod folder name
             for b in load_order_tags:
