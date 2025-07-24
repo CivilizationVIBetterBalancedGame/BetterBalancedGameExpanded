@@ -115,6 +115,7 @@ function LimeTeKinich_IsAtWar(pPlayer)
 		end
 --		print("next!")
 	end
+	return false
 end
 
 function LimeTeKinich_HealSoldiersOnTech(playerID, technologyIndex)
