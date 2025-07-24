@@ -79,7 +79,7 @@ def combine_modinfo_files():
             # break
         mod_cnt = mod_cnt + 1
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1">
+<Mod id="d87df459-12bc-4344-911c-bc37a4503121" version="1">
   <Properties>
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
