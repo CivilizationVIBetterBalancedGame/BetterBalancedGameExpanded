@@ -8,15 +8,23 @@ def get_mod_folders():
     Returns a list of all folders in the current directory whose names start with 'Mod'.
     """
     return [
+        'Africa/SwahiliAlHasanibn',
+        'Asia/TibetNgawangLobsangGyatso',
+        'Asia/TibetTrisongDetsen',
+        'CIVITASResources',
         'DistrictIcons',
+        'Europe/GaulVercingetorix',
+        'Mediterranean/MacedonOlympias',
+        'Meso/MayaTeKinichII',
+        'Meso/TheoticuanasTeotihuacan',
         'NorthAmerica/ThuleKiviuq',
-        'Europe/GaulVercingetorix'
     ]
 
 def combine_modinfo_files():
     new_mod_dict = {}
     mod_cnt = 0
     author_dict = {}
+    special_thanks_dict = {}
     author_dict['Calcifer'] = 1
     author_dict['Apeul'] = 1
     files_dict = {}
@@ -55,6 +63,12 @@ def combine_modinfo_files():
                 delimiters = r'[;,\s]+'
                 for author in re.split(delimiters, tag.string):
                     author_dict[author] = 1
+                    
+            special_thanks_tags = Bs_data.find_all("SpecialThanks")
+            for tag in special_thanks_tags:
+                delimiters = r'[;,\s]+'
+                for author in re.split(delimiters, tag.string):
+                    special_thanks_dict[author] = 1
 
             for b in Bs_data.find('Mod'):
                 if b.name == 'Properties' or b.name == None:
@@ -70,6 +84,7 @@ def combine_modinfo_files():
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
     <Authors>{', '.join(author_dict)}</Authors>
+    <SpecialThanks>{', '.join(special_thanks_dict)}</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>'''
     for key, value in new_mod_dict.items():
