@@ -92,6 +92,6 @@ function OnDistrictConstructed(iPlayer, eDistrictType, iX, iY)
 	Game.AddWorldViewText(0, Locale.Lookup(sNotification, iReward), iX, iY, Game.GetLocalPlayer())
 	
 end
-GameEvents.OnDistrictConstructed.Add(OnDistrictConstructed)
+-- GameEvents.OnDistrictConstructed.Add(OnDistrictConstructed)
 --==========================================================================================================================
 --==========================================================================================================================
