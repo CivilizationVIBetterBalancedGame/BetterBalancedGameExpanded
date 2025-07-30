@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1">
+<!-- Release ModID-->
+<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1"> -->
+<!-- WIP ModID-->
+<Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="1">
   <Properties>
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
