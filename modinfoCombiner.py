@@ -28,6 +28,7 @@ def combine_modinfo_files():
     author_dict['Calcifer'] = 1
     author_dict['Apeul'] = 1
     files_dict = {}
+    dependencies = {}
     for mod in get_mod_folders():
         modinfo_path = os.path.join(mod, "files.xml")
         if os.path.exists(modinfo_path):
@@ -69,9 +70,15 @@ def combine_modinfo_files():
                 delimiters = r'[;,\s]+'
                 for author in re.split(delimiters, tag.string):
                     special_thanks_dict[author] = 1
+                    
+            dependency_tags = Bs_data.find_all("Dependencies")
+            for tag in dependency_tags:
+                for dep in tag.children:
+                    if dep.name == 'Mod':
+                        dependencies[dep["id"]] = dep
 
             for b in Bs_data.find('Mod'):
-                if b.name == 'Properties' or b.name == None:
+                if b.name == 'Properties' or b.name == 'Dependencies' or b.name == None:
                     continue
                 if b.name not in new_mod_dict:
                     new_mod_dict[b.name] = ''
@@ -80,6 +87,9 @@ def combine_modinfo_files():
         mod_cnt = mod_cnt + 1
     sorted_authors = sorted(author_dict.keys(), key=lambda item: item)
     sorted_special_thanks = sorted(special_thanks_dict.keys(), key=lambda item: item)
+    dependenciesStr = ''
+    for key, value in dependencies.items():
+        dependenciesStr += f'    <Mod id="{key}" title="{value["title"]}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
 <!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1"> -->
@@ -91,7 +101,8 @@ def combine_modinfo_files():
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-  </Properties>'''
+  </Properties>\n'''
+    newFileStr += f'<Dependencies>\n{dependenciesStr}</Dependencies>\n'
     for key, value in new_mod_dict.items():
         print(key)
         newFileStr += ''.join(value).replace(f'</{key}>\n<{key}>', '')

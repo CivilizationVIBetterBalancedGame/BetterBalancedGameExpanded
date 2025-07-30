@@ -9,7 +9,13 @@
     <Authors>Apeul, Calcifer, ChimpanG, Chrisy15, JFD, Leugi, Lime, Rıaın, SailorCat, SeelingCat, Sukritact, p0kiehl, thecrazyscotsman (alphabetical order)</Authors>
     <SpecialThanks>Alexxis, Cat, ChimpanG, Chrisy, Darth, DarthKyofu, Dray, Enigma, JFD, LeeS, Leugi, Relic, Sailor, SailorCat, SeelingCat, Senshidenshi, Sloth, Sukritact, TranquilSilence, Zebenji, Zharques, p0khiel (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-  </Properties><ActionCriteria>
+  </Properties>
+<Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack"/>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+</Dependencies>
+<ActionCriteria>
 <Criteria id="Suk_AlHasan">
 <LeaderPlayable>Players:StandardPlayers::LEADER_SUK_AL_HASAN,Players:Expansion1_Players::LEADER_SUK_AL_HASAN,Players:Expansion2_Players::LEADER_SUK_AL_HASAN</LeaderPlayable>
 </Criteria>
@@ -2627,17 +2633,6 @@
 <File>NorthAmerica/ThuleKiviuq/XLPs/UILeaders.xlp</File>
 <File>NorthAmerica/ThuleKiviuq/XLPs/Units.xlp</File>
 </Files>
-<Dependencies>
-<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
-
-<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
-<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack"/>
-
-<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
-
-<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
-<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
-</Dependencies>
 <References>
 <Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="DELIVERATOR STEEL AND THUNDER"/>
 <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="DELIVERATOR MOAR UNITS"/>
