@@ -72,6 +72,7 @@
 			AND ModifierId = 'MONUMENT_LOYALTY';
 --==========================================================================================================================
 -- International Trade Routes from this city generate +1 Gold, +1 Culture for each district adjacent to the City Centre.
+-- BBG Change, +2 gold +1 science every 2 district adjacent
 --==========================================================================================================================
 	-- PREPARATION
 	--------------------------------------------------------------------
@@ -82,13 +83,10 @@
 		);
 
 		INSERT INTO Suk_PillarTomb
-				(YieldType,		Amount, 	MinReq)
-		VALUES	('YIELD_GOLD',	1,			1),		('YIELD_CULTURE',	1,	1),
-				('YIELD_GOLD',	1,			2),		('YIELD_CULTURE',	1,	2),
-				('YIELD_GOLD',	1,			3),		('YIELD_CULTURE',	1,	3),
-				('YIELD_GOLD',	1,			4),		('YIELD_CULTURE',	1,	4),
-				('YIELD_GOLD',	1,			5),		('YIELD_CULTURE',	1,	5),
-				('YIELD_GOLD',	1,			6),		('YIELD_CULTURE',	1,	6);
+				(YieldType,		Amount, 	MinReq) VALUES
+				('YIELD_GOLD',	2,			2),		('YIELD_SCIENCE',	1,	2),
+				('YIELD_GOLD',	2,			4),		('YIELD_SCIENCE',	1,	4),
+				('YIELD_GOLD',	2,			6),		('YIELD_SCIENCE',	1,	6);
 	--------------------------------------------------------------------
 	-- Modifiers
 	--------------------------------------------------------------------
