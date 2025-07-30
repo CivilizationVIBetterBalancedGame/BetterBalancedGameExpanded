@@ -60,7 +60,7 @@ function LimeTeKinich_GrantScienceOnDamage(m_combatData)
 		Game.AddWorldViewText(tAttackerID, Locale.Lookup("LOC_LIME_MAYA_TE_KINICH_SCIENCE", iAmountScience), tAttackerX, tAttackerY, 0)
 	end
 end
-Events.Combat.Add(LimeTeKinich_GrantScienceOnDamage)
+-- Events.Combat.Add(LimeTeKinich_GrantScienceOnDamage)
 
 --===============================================================================================================
 
@@ -83,7 +83,7 @@ function LimeTeKinich_PlayerSettledCity(playerID, cityID, x, y)
 		end
 	end
 end
-Events.CityAddedToMap.Add(LimeTeKinich_PlayerSettledCity)
+-- Events.CityAddedToMap.Add(LimeTeKinich_PlayerSettledCity)
 
 function LimeTeKinich_GrantEurekaOnConquest(newPlayerID, oldPlayerID, newCityID, cityX, cityY)
 	if not tValidPlayers[newPlayerID] then return end 
@@ -95,28 +95,28 @@ function LimeTeKinich_GrantEurekaOnConquest(newPlayerID, oldPlayerID, newCityID,
 --		print("eureka granted")
 	end
 end
-GameEvents.CityConquered.Add(LimeTeKinich_GrantEurekaOnConquest)
+-- GameEvents.CityConquered.Add(LimeTeKinich_GrantEurekaOnConquest)
 
 --==================================================================================================================
 
 --local iHealAmount	= 50 -- in case I want to change it)
 --local iXPAmount		= 5 -- well only if I end up luaing the whole thing
 
-function LimeTeKinich_IsAtWar(pPlayer)
-	local pDiplo = pPlayer:GetDiplomacy()
+-- function LimeTeKinich_IsAtWar(pPlayer)
+-- 	local pDiplo = pPlayer:GetDiplomacy()
 	
-	for k, v in ipairs(PlayerManager.GetAliveIDs()) do 
---		print("target has met this one!")
-		if pDiplo:IsAtWarWith(v) then
-			return true
-		else
-				--iNumAtPeace = iNumAtPeace + 1
---			print("this one was at peace!")
-		end
---		print("next!")
-	end
-	return false
-end
+-- 	for k, v in ipairs(PlayerManager.GetAliveIDs()) do 
+-- --		print("target has met this one!")
+-- 		if pDiplo:IsAtWarWith(v) then
+-- 			return true
+-- 		else
+-- 				--iNumAtPeace = iNumAtPeace + 1
+-- --			print("this one was at peace!")
+-- 		end
+-- --		print("next!")
+-- 	end
+-- 	return false
+-- end
 
 function LimeTeKinich_HealSoldiersOnTech(playerID, technologyIndex)
 	if not tValidPlayers[playerID] then return end 
@@ -124,16 +124,14 @@ function LimeTeKinich_HealSoldiersOnTech(playerID, technologyIndex)
 
 	local pPlayer = Players[playerID]
 
-	if not LimeTeKinich_IsAtWar(pPlayer) then return end
-
 	for i, pUnit in pPlayer:GetUnits():Members() do
-		pUnit:ChangeDamage(-25)
-		pUnit:GetExperience():ChangeExperience(5)
+		pUnit:ChangeDamage(-5)
+		pUnit:GetExperience():ChangeExperience(2)
 --		print("this unit done! hope the float text happens!")
 	end
 
 --	print("all units healed and granted!")									-- is that how it works?
 end
-Events.ResearchCompleted.Add(LimeTeKinich_HealSoldiersOnTech)
+Events.TechBoostTriggered.Add(LimeTeKinich_HealSoldiersOnTech)
 
 print("Loaded")
