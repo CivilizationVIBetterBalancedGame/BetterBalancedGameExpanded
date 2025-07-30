@@ -73,7 +73,7 @@ function LimeTeotihuacan_OwlWarrior_EnvoyDoubler(playerID, cityStateID, iAmount)
 		end
 	end
 end
-GameEvents.OnPlayerGaveInfluenceToken.Add(LimeTeotihuacan_OwlWarrior_EnvoyDoubler)
+-- GameEvents.OnPlayerGaveInfluenceToken.Add(LimeTeotihuacan_OwlWarrior_EnvoyDoubler)
 
 --local tUnitType = "UNIT_SETTLER"
 --

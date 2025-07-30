@@ -46,5 +46,5 @@ function LimeTeotihuacan_SpearthrowerOwl_PopConqueror(newPlayerID, oldPlayerID)
 	end
 end
 
-GameEvents.CityConquered.Add(LimeTeotihuacan_SpearthrowerOwl_PopConqueror)
+-- GameEvents.CityConquered.Add(LimeTeotihuacan_SpearthrowerOwl_PopConqueror)
 print("Function Loaded.")
