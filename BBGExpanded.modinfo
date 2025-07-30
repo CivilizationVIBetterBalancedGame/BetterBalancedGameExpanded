@@ -6,8 +6,8 @@
   <Properties>
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
-    <Authors>Calcifer, Apeul, Sukritact, p0kiehl, ChimpanG, Chrisy15, SailorCat, SeelingCat, thecrazyscotsman, Leugi, Rıaın, JFD, Lime</Authors>
-    <SpecialThanks>SeelingCat, DarthKyofu, Adds, Tibet, as, a, Civ, with, Trisong, Detsen, its, leader., Sukritact, Zharques, Leugi, Sailor, Cat, Alexxis, SailorCat, LeeS, ChimpanG, Enigma, JFD, Chrisy, Relic, TranquilSilence, Dray, Senshidenshi, Sloth, Darth, p0khiel, Zebenji, and, all, the, other, lads, in, Empire</SpecialThanks>
+    <Authors>Apeul, Calcifer, ChimpanG, Chrisy15, JFD, Leugi, Lime, Rıaın, SailorCat, SeelingCat, Sukritact, p0kiehl, thecrazyscotsman</Authors>
+    <SpecialThanks>Alexxis, Cat, ChimpanG, Chrisy, Darth, DarthKyofu, Dray, Enigma, JFD, LeeS, Leugi, Relic, Sailor, SailorCat, SeelingCat, Senshidenshi, Sloth, Sukritact, TranquilSilence, Zebenji, Zharques, p0khiel</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties><ActionCriteria>
 <Criteria id="Suk_AlHasan">
@@ -131,69 +131,38 @@
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Config.sql</File>
-</UpdateDatabase>
-<UpdateArt id="UpdateArt">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
-</UpdateArt>
-<UpdateText id="UpdateText">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Localisation.sql</File>
-</UpdateText>
-<UpdateIcons id="UpdateIcons">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Icons.sql</File>
-</UpdateIcons>
-<UpdateColors id="UpdateColors">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Color.sql</File>
-</UpdateColors>
-
-<UpdateDatabase id="UpdateDatabase">
-<Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Config.sql</File>
 </UpdateDatabase>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Localisation.sql</File>
 </UpdateText>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Sukritact's Trisong Detsen (Tibet).dep</File>
 </UpdateArt>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Color.sql</File>
 </UpdateColors>
 
 <UpdateIcons id="ConfigIcons">
 <Properties>
-<LoadOrder>9952</LoadOrder>
+<LoadOrder>9962</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate.sql</File>
 </UpdateIcons>
@@ -203,14 +172,14 @@
 <UpdateIcons id="Icons_XP"/>
 <UpdateIcons id="Icons_XP2">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_XP2.sql</File>
 <File>DistrictIcons/sql/IconUpdate_XP.sql</File>
 </UpdateIcons>
 <UpdateIcons id="Icons_NewFrontier">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_STK1.sql</File>
 <File>DistrictIcons/sql/IconUpdate_STK3.sql</File>
@@ -220,38 +189,38 @@
 
 <UpdateDatabase id="Suk_Vercingetorix_DatabaseConfig">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Config.sql</File>
 </UpdateDatabase>
 <UpdateText id="Suk_Vercingetorix_TextConfig">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_ConfigText.sql</File>
 </UpdateText>
 <UpdateArt id="Suk_Vercingetorix_ArtConfig">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Sukritact's Vercingetorix (Gauls).dep</File>
 </UpdateArt>
 <UpdateIcons id="Suk_Vercingetorix_IconsConfig">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="Suk_Vercingetorix_ColorsConfig">
 <Properties>
-<LoadOrder>994101</LoadOrder>
+<LoadOrder>995101</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Color.sql</File>
 </UpdateColors>
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>99310</LoadOrder>
+<LoadOrder>99410</LoadOrder>
 </Properties>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_Config.sql</File>
 </UpdateDatabase>
@@ -267,6 +236,37 @@
 <UpdateColors id="UpdateColors">
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_GameColors.sql</File>
 </UpdateColors>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Config.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Colours.sql</File>
+</UpdateColors>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Text.sql</File>
+</UpdateText>
+<UpdateIcons id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Icons.sql</File>
+</UpdateIcons>
+<UpdateArt id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/Lime_Phoenicia_Ahiram.dep</File>
+</UpdateArt>
 
 <UpdateDatabase id="NewAction">
 <Properties>
@@ -425,44 +425,7 @@
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/GameDefines.sql</File>
-</UpdateDatabase>
-<UpdateArt id="UpdateArt">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
-</UpdateArt>
-<UpdateText id="UpdateText">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Localisation.sql</File>
-</UpdateText>
-<UpdateIcons id="UpdateIcons">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Icons.sql</File>
-</UpdateIcons>
-<AddGameplayScripts id="AddGameplayScripts">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Lua/Suk_Lobsang_Gyatso.lua</File>
-</AddGameplayScripts>
-<UpdateColors id="UpdateColors">
-<Properties>
-<LoadOrder>998110</LoadOrder>
-</Properties>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Color.sql</File>
-</UpdateColors>
-
-<UpdateDatabase id="UpdateDatabase">
-<Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Civilizations.sql</File>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Leaders.sql</File>
@@ -471,69 +434,69 @@
 </UpdateDatabase>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Sukritact's Trisong Detsen (Tibet).dep</File>
 </UpdateArt>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Localisation.sql</File>
 </UpdateText>
 <UpdateDatabase id="UpdateDatabase_XP2">
 <Properties>
-<LoadOrder>997101</LoadOrder>
+<LoadOrder>998101</LoadOrder>
 </Properties>
 <Criteria>Expansion2</Criteria>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_XP2.sql</File>
 </UpdateDatabase>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Color.sql</File>
 </UpdateColors>
 <AddGameplayScripts id="AddGameplayScripts">
 <Properties>
-<LoadOrder>997100</LoadOrder>
+<LoadOrder>998100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Lua/Suk_Dzong.lua</File>
 </AddGameplayScripts>
 
 <UpdateDatabase id="Resources">
 <Properties>
-<LoadOrder>9965</LoadOrder>
+<LoadOrder>9975</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/p0k_Resources.sql</File>
 </UpdateDatabase>
 <UpdateArt id="ResourcesArt">
 <Properties>
-<LoadOrder>9965</LoadOrder>
+<LoadOrder>9975</LoadOrder>
 </Properties>
 <File>CIVITASResources/CIVITAS Resources.dep</File>
 </UpdateArt>
 <UpdateIcons id="ResourcesIcon">
 <Properties>
-<LoadOrder>9965</LoadOrder>
+<LoadOrder>9975</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/CVS_Resource_Icon_Definitions.sql</File>
 </UpdateIcons>
 <UpdateText id="ResourcesText">
 <Properties>
-<LoadOrder>9965</LoadOrder>
+<LoadOrder>9975</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/p0k_Resources_Localisation.sql</File>
 </UpdateText>
 <UpdateDatabase id="ResourcesMODE">
 <Properties>
-<LoadOrder>99610</LoadOrder>
+<LoadOrder>99710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Industries.sql</File>
@@ -542,14 +505,14 @@
 </UpdateDatabase>
 <UpdateIcons id="ResourcesMODEIcon">
 <Properties>
-<LoadOrder>99610</LoadOrder>
+<LoadOrder>99710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Icon_Definitions.sql</File>
 </UpdateIcons>
 <UpdateText id="ResourcesMODEText">
 <Properties>
-<LoadOrder>99610</LoadOrder>
+<LoadOrder>99710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Localisation.sql</File>
@@ -557,32 +520,32 @@
 
 <UpdateIcons id="Icons">
 <Properties>
-<LoadOrder>9952</LoadOrder>
+<LoadOrder>9962</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate.sql</File>
 </UpdateIcons>
 <UpdateArt id="Art">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <File>DistrictIcons/.dep</File>
 </UpdateArt>
 <UpdateIcons id="Icons_XP">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <Criteria>Expansion1</Criteria>
 </UpdateIcons>
 <UpdateIcons id="Icons_XP2">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_XP2.sql</File>
 <File>DistrictIcons/sql/IconUpdate_XP.sql</File>
 </UpdateIcons>
 <UpdateIcons id="Icons_NewFrontier">
 <Properties>
-<LoadOrder>995200</LoadOrder>
+<LoadOrder>996200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_STK1.sql</File>
 <File>DistrictIcons/sql/IconUpdate_STK2.sql</File>
@@ -593,32 +556,32 @@
 
 <UpdateArt id="Suk_Vercingetorix_Art">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Sukritact's Vercingetorix (Gauls).dep</File>
 </UpdateArt>
 <UpdateColors id="Suk_Vercingetorix_Colors">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Color.sql</File>
 </UpdateColors>
 <UpdateIcons id="Suk_Vercingetorix_Icons">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="Suk_Vercingetorix_Text">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_ConfigText.sql</File>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_LeaderText.sql</File>
 </UpdateText>
 <UpdateDatabase id="Suk_Vercingetorix_Base">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Civilizations.sql</File>
@@ -628,49 +591,49 @@
 </UpdateDatabase>
 <UpdateText id="Suk_Vercingetorix_BaseText">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_InGameText.sql</File>
 </UpdateText>
 <AddGameplayScripts id="Suk_Vercingetorix_BaseScripts">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Lua/Suk_Vercingetorix_CoreFunctions.lua</File>
 </AddGameplayScripts>
 <UpdateDatabase id="Suk_Vercingetorix_XP1">
 <Properties>
-<LoadOrder>994101</LoadOrder>
+<LoadOrder>995101</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_Expansion1</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Expansion1.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_XP2">
 <Properties>
-<LoadOrder>994101</LoadOrder>
+<LoadOrder>995101</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_Expansion2</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Expansion2.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLC">
 <Properties>
-<LoadOrder>994120</LoadOrder>
+<LoadOrder>995120</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Leader_DLC.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkCommon">
 <Properties>
-<LoadOrder>994110</LoadOrder>
+<LoadOrder>995110</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_Rework</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Civilizations_DLC.sql</File>
 </UpdateDatabase>
 <UpdateAudio id="Suk_Vercingetorix_Audio">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Platforms/Windows/Audio/Suk_Vercingetorix_Banks.ini</File>
 <File>Europe/GaulVercingetorix/Platforms/Windows/Audio/Suk_Vercingetorix_Speech_Bank.bnk</File>
@@ -679,14 +642,14 @@
 </UpdateAudio>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkBase">
 <Properties>
-<LoadOrder>994111</LoadOrder>
+<LoadOrder>995111</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkBasic</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Districts_DLC.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkPlus">
 <Properties>
-<LoadOrder>994111</LoadOrder>
+<LoadOrder>995111</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkPlus</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Units_DLC.sql</File>
@@ -694,7 +657,7 @@
 </UpdateDatabase>
 <AddGameplayScripts id="Suk_Vercingetorix_DLCRework_Scripts">
 <Properties>
-<LoadOrder>994100</LoadOrder>
+<LoadOrder>995100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkPlus</Criteria>
 <File>Europe/GaulVercingetorix/Lua/Suk_Vercingetorix_CoreFunctions.lua</File>
@@ -702,7 +665,7 @@
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>99310</LoadOrder>
+<LoadOrder>99410</LoadOrder>
 </Properties>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_GameDefines.sql</File>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_ModSupport.sql</File>
@@ -722,6 +685,43 @@
 <UpdateColors id="UpdateColors">
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_GameColors.sql</File>
 </UpdateColors>
+
+<UpdateDatabase id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Game Defines.sql</File>
+</UpdateDatabase>
+<UpdateColors id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Colours.sql</File>
+</UpdateColors>
+<UpdateArt id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/Lime_Phoenicia_Ahiram.dep</File>
+</UpdateArt>
+<UpdateText id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Text.sql</File>
+</UpdateText>
+<AddGameplayScripts id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Lua.lua</File>
+</AddGameplayScripts>
+<UpdateIcons id="NewAction">
+<Properties>
+<LoadOrder>993100</LoadOrder>
+</Properties>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Icons.sql</File>
+</UpdateIcons>
 
 <UpdateDatabase id="NewAction">
 <Properties>
@@ -980,20 +980,6 @@
 <File>Africa/SwahiliAlHasanibn/Platforms/Windows/BLPs/UITextures.blp</File>
 <File>Africa/SwahiliAlHasanibn/Platforms/Windows/BLPs/units/units.blp</File>
 <File>Africa/SwahiliAlHasanibn/Sukritact's Swahili Al Hasan ibn Sulaiman.dep</File>
-
-<File>Asia/TibetNgawangLobsangGyatso/ArtDefs/FallbackLeaders.artdef</File>
-<File>Asia/TibetNgawangLobsangGyatso/ArtDefs/Leaders.artdef</File>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Color.sql</File>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Config.sql</File>
-<File>Asia/TibetNgawangLobsangGyatso/Core/GameDefines.sql</File>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Icons.sql</File>
-<File>Asia/TibetNgawangLobsangGyatso/Core/Localisation.sql</File>
-<File>Asia/TibetNgawangLobsangGyatso/Lua/Suk_Lobsang_Gyatso.lua</File>
-<File>Asia/TibetNgawangLobsangGyatso/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-<File>Asia/TibetNgawangLobsangGyatso/Platforms/MacOS/BLPs/UITextures.blp</File>
-<File>Asia/TibetNgawangLobsangGyatso/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
-<File>Asia/TibetNgawangLobsangGyatso/Platforms/Windows/BLPs/UITextures.blp</File>
-<File>Asia/TibetNgawangLobsangGyatso/Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
 
 <File>Asia/TibetTrisongDetsen/ArtDefs/Civilizations.artdef</File>
 <File>Asia/TibetTrisongDetsen/ArtDefs/Cultures.artdef</File>
@@ -2030,6 +2016,60 @@
 <File>Mediterranean/MacedonOlympias/XLPs/Icons.xlp</File>
 <File>Mediterranean/MacedonOlympias/XLPs/LeaderFallbacks.xlp</File>
 
+<File>Mediterranean/PhoeniciaAhiram/ArtDefs/Buildings.artdef</File>
+<File>Mediterranean/PhoeniciaAhiram/ArtDefs/FallbackLeaders.artdef</File>
+<File>Mediterranean/PhoeniciaAhiram/ArtDefs/Landmarks.artdef</File>
+<File>Mediterranean/PhoeniciaAhiram/ArtDefs/Leaders.artdef</File>
+<File>Mediterranean/PhoeniciaAhiram/ArtDefs/StrategicView.artdef</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Colours.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Config.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Game Defines.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Icons.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Lua.lua</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - ModSupport.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Text.sql</File>
+<File>Mediterranean/PhoeniciaAhiram/Lime_Phoenicia_Ahiram.dep</File>
+<File>Mediterranean/PhoeniciaAhiram/Mod.Art.xml</File>
+<File>Mediterranean/PhoeniciaAhiram/Mod.Art_Backup.xml</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/LeaderFallbackImages.blp</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CMP_Base_B_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CMP_RoyalTomb_Basecolor_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_GOV_Base_B_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Modern_01_B_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Mine_Base_B_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_A</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_E</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_M</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_N0</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_N1</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_A</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_E</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_M</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_N0</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_GOV_Base_N1</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Modern_01_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Modern_01_N0</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Modern_01_N1</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_A</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_E</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_M</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_N0</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mine_Base_N1</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/UILeaders.blp</File>
+<File>Mediterranean/PhoeniciaAhiram/Platforms/Windows/BLPs/UI/Icons.blp</File>
+
 <File>Meso/MayaTeKinichII/ArtDefs/LeaderFallbacks.artdef</File>
 <File>Meso/MayaTeKinichII/ArtDefs/Leaders.artdef</File>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Colours.sql</File>
@@ -2604,6 +2644,8 @@
 <Mod id="514aaa88-ffd2-475f-ace6-ea49b34a100a" title="GEDEMON CORDIFORM EARTH FOR YNAEMP"/>
 <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" title="GEDEMON YNAEMP"/>
 <Mod id="650ff782-47b4-4b46-93fb-00bef8da8b8e" title="JFD RULE WITH FAITH"/>
+
+<Mod id="74c5f76a-5aa8-4b40-b727-c8c5e6ca9b01" title="p0kiehl's Phoenicia Rework"/>
 
 <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" title="Gedemon's Yet (not) Another Earth Maps Pack"/>
 <Mod id="514aaa88-ffd2-475f-ace6-ea49b34a100a" title="Gedemon's Cordiform Earth YNAEMP Map"/>

@@ -9,12 +9,12 @@ def get_mod_folders():
     """
     return [
         'Africa/SwahiliAlHasanibn',
-        'Asia/TibetNgawangLobsangGyatso',
         'Asia/TibetTrisongDetsen',
         'CIVITASResources',
         'DistrictIcons',
         'Europe/GaulVercingetorix',
         'Mediterranean/MacedonOlympias',
+        'Mediterranean/PhoeniciaAhiram',
         'Meso/MayaTeKinichII',
         'Meso/TheoticuanasTeotihuacan',
         'NorthAmerica/ThuleKiviuq',
@@ -78,6 +78,8 @@ def combine_modinfo_files():
                 new_mod_dict[b.name] = new_mod_dict[b.name] + str(b) + '\n'
             # break
         mod_cnt = mod_cnt + 1
+    sorted_authors = sorted(author_dict.keys(), key=lambda item: item)
+    sorted_special_thanks = sorted(special_thanks_dict.keys(), key=lambda item: item)
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
 <!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1"> -->
@@ -86,8 +88,8 @@ def combine_modinfo_files():
   <Properties>
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
-    <Authors>{', '.join(author_dict)}</Authors>
-    <SpecialThanks>{', '.join(special_thanks_dict)}</SpecialThanks>
+    <Authors>{', '.join(sorted_authors)}</Authors>
+    <SpecialThanks>{', '.join(sorted_special_thanks)}</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>'''
     for key, value in new_mod_dict.items():
