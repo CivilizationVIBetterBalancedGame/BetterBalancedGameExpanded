@@ -88,8 +88,8 @@ def combine_modinfo_files():
   <Properties>
     <Name>BBG Expanded</Name>
     <Description>Expansion of new civs</Description>
-    <Authors>{', '.join(sorted_authors)}</Authors>
-    <SpecialThanks>{', '.join(sorted_special_thanks)}</SpecialThanks>
+    <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
+    <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>'''
     for key, value in new_mod_dict.items():
