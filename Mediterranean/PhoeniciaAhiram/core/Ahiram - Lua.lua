@@ -74,6 +74,6 @@ function LimePhoeniciaAhiram_BuildingPurchases(playerID, cityID, iX, iY, number,
 	end--]]
 end
 
-Events.CityMadePurchase.Add(LimePhoeniciaAhiram_BuildingPurchases);
+-- Events.CityMadePurchase.Add(LimePhoeniciaAhiram_BuildingPurchases);
 
 print("Port Lime (Phoenicia): Load successful");
