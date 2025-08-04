@@ -190,9 +190,9 @@
 			('NONE',		NULL,							1812,		'{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map'),
 
 			('LEADER',		'LEADER_SUK_AL_HASAN',			1728,		'../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map'),
-			('LEADER',		'LEADER_SUK_AL_HASAN',			1728,		'{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map'),
+			('LEADER',		'LEADER_SUK_AL_HASAN',			1728,		'{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map');
 
-			('LEADER',		'LEADER_MINOR_CIV_ZANZIBAR',	2252,		'../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map'),
-			('LEADER',		'LEADER_MINOR_CIV_ZANZIBAR',	2252,		'{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map');
+			-- ('LEADER',		'LEADER_MINOR_CIV_ZANZIBAR',	2252,		'../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map'),
+			-- ('LEADER',		'LEADER_MINOR_CIV_ZANZIBAR',	2252,		'{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map');
 --==========================================================================================================================
 --==========================================================================================================================

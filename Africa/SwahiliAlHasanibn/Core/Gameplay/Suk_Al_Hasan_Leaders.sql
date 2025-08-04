@@ -315,9 +315,9 @@
 			(LeaderType, 				CivilizationType,				CapitalName)
 	VALUES  ('LEADER_SUK_AL_HASAN',		'CIVILIZATION_SUK_SWAHILI',		'LOC_CITY_NAME_SUK_SWAHILI_KILWA_KISIWANI');
 
-	UPDATE CivilizationLeaders
-	SET CapitalName = 'LOC_CITY_NAME_TERNATE'
-	WHERE LeaderType = 'LEADER_MINOR_CIV_ZANZIBAR'
-	AND EXISTS (SELECT * FROM CityNames WHERE CityName = 'LOC_CITY_NAME_TERNATE');
+	-- UPDATE CivilizationLeaders
+	-- SET CapitalName = 'LOC_CITY_NAME_TERNATE'
+	-- WHERE LeaderType = 'LEADER_MINOR_CIV_ZANZIBAR'
+	-- AND EXISTS (SELECT * FROM CityNames WHERE CityName = 'LOC_CITY_NAME_TERNATE');
 --==========================================================================================================================
 --==========================================================================================================================

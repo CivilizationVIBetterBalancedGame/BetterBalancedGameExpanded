@@ -9,8 +9,8 @@ VALUES
 --========================================================================================================================
 			("LOC_CITY_NAME_SUK_SWAHILI_KILWA_KISIWANI",
 			"Kilwa Kisiwani"),
-			("LOC_CITY_NAME_SUK_SWAHILI_ZANZIBAR",
-			"Zanzibar"),
+			-- ("LOC_CITY_NAME_SUK_SWAHILI_ZANZIBAR",
+			-- "Zanzibar"),
 			("LOC_CITY_NAME_SUK_SWAHILI_MOMBASA",
 			"Mombasa"),
 			("LOC_CITY_NAME_SUK_SWAHILI_LAMU",

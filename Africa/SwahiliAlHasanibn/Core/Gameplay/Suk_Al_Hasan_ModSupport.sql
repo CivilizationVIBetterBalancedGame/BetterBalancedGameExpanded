@@ -14,11 +14,11 @@ INSERT OR REPLACE INTO StartPosition
 		(Civilization,						Leader,							MapName,				X,		Y)
 VALUES	('CIVILIZATION_SUK_SWAHILI',		'LEADER_SUK_AL_HASAN',			'GiantEarth',			33,		24),
 		('CIVILIZATION_SUK_SWAHILI',		'LEADER_SUK_AL_HASAN',			'GreatestEarthMap',		64,		14),
-		('CIVILIZATION_SUK_SWAHILI',		'LEADER_SUK_AL_HASAN',			'LargestEarth',			43,		31),
+		('CIVILIZATION_SUK_SWAHILI',		'LEADER_SUK_AL_HASAN',			'LargestEarth',			43,		31);
 
-		('CIVILIZATION_ZANZIBAR',							NULL,			'GiantEarth',			91,		33),
-		('CIVILIZATION_ZANZIBAR',							NULL,			'GreatestEarthMap',		95,		29),
-		('CIVILIZATION_ZANZIBAR',							NULL,			'LargestEarth',			121,	41);
+		-- ('CIVILIZATION_ZANZIBAR',							NULL,			'GiantEarth',			91,		33),
+		-- ('CIVILIZATION_ZANZIBAR',							NULL,			'GreatestEarthMap',		95,		29),
+		-- ('CIVILIZATION_ZANZIBAR',							NULL,			'LargestEarth',			121,	41);
 --==========================================================================================================================
 -- JFD RULE WITH FAITH
 --==========================================================================================================================

@@ -114,38 +114,38 @@
 		("LOC_DIPLO_WARNING_LEADER_SUK_AL_HASAN_REASON_ANY",
 		"(You are competing for Great People, but have ignored city development.)"	),
 		("LOC_DIPLO_MODIFIER_SUK_FATHER_OF_GIFTS_WARNING",
-		"Al Hasan admires your developed cities and great people"	),
+		"Al Hasan admires your developed cities and great people"	);
 --========================================================================================================================
 -- Ternate
 --========================================================================================================================
-		("LOC_CIVILIZATION_ZANZIBAR_DESCRIPTION",
-		"Ternate city-state"	),
-		("LOC_CIVILIZATION_ZANZIBAR_ADJECTIVE",
-		"Ternaten"	),
-		("LOC_LEADER_TRAIT_ZANZIBAR_NAME",
-		"Ternate Suzerain Bonus"	),
-		("LOC_CIVILIZATION_ZANZIBAR_NAME",
-		"Ternate"	),
+		-- ("LOC_CIVILIZATION_ZANZIBAR_DESCRIPTION",
+		-- "Ternate city-state"	),
+		-- ("LOC_CIVILIZATION_ZANZIBAR_ADJECTIVE",
+		-- "Ternaten"	),
+		-- ("LOC_LEADER_TRAIT_ZANZIBAR_NAME",
+		-- "Ternate Suzerain Bonus"	),
+		-- ("LOC_CIVILIZATION_ZANZIBAR_NAME",
+		-- "Ternate"	),
 
-		("LOC_CITY_NAME_ZANZIBAR_1",
-		"Ternate"	),
-		("LOC_CITY_NAME_ZANZIBAR",
-		"Ternate"	),
+		-- ("LOC_CITY_NAME_ZANZIBAR_1",
+		-- "Ternate"	),
+		-- ("LOC_CITY_NAME_ZANZIBAR",
+		-- "Ternate"	),
 
-		("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_1",
-		"The sultanate was originally named the Kingdom of Gapi, but later changed the name to be based off its capital, Ternate. Ternate and neighbouring Tidore were the world's single major producer of cloves, upon which their rulers became among the wealthiest and most powerful sultans in the Indonesian region. Much of their wealth, however, was wasted fighting each other. Up until the Dutch completed the colonisation of Maluku in the 19th century, the Sultans of Ternate ruled empires that claimed at least nominal influence as far as Ambon, Sulawesi and Papua."	),
-		("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_2",
-		"In part as a result of its trade-dependent culture, Ternate was one of the earliest places in the region to which Islam spread, probably coming from Java in the late 15th century. Initially, the faith was restricted to Ternate's small ruling family, and spread only slowly to the rest of the population."	),
-		("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_3",
-		"From the 16th century onwards, the Ternate sultanate fell under the sway of the European colonial powers, first the Portuguese were permitted to build a fort on the island, but relations between the Ternateans and Portuguese were strained from the start, due to the generally poor behaviour of the Portuguese, combined with feeble attempts at Christianisation. The Ternateans expelled the Portuguese in 1575 after a five-year siege."	),
-		("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_4",
-		"Spanish forces captured the former Portuguese fort from the Ternatese in 1606, deporting the Ternate Sultan and his entourage to Manila. In 1607 the Dutch came back to Ternate, where with the help of Ternateans they built a fort in Malayo. The island was divided between the two powers: the Spaniards were allied with Tidore and the Dutch with their Ternaten allies. Desiring to restore Ternate to its former glory and expel the western power, Sultan Sibori of Ternate (1675–1691) declared war to the Dutch, but the power of Ternate had greatly reduced over the years, he lost and was forced to concede more of his lands to the Dutch by an unjust treaty in 1683. By this treaty, Ternate had lost its equal position with the Dutch and became a vassal. However, the Sultans of Ternate and its people were never fully under Dutch control."	),
-		("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_5",
-		"Sultan Haji Muhammad Usman (1896–1914) made a last attempt to drive out the Dutch by instigating revolts in the region; he failed and was dethroned, his wealth being confiscated, and he was exiled to Bandung, where he lived his remaining years until 1927. The throne of Ternate was left vacant from 1914 to 1927, until the board of ministers under the blessing of the Dutch created Crown Prince Iskandar Muhammad Jabir the next Sultan. The dynasty founded by Baab Mashur Malamo continues to the present, as does the Sultanate itself, although it no longer holds any political power."),
+		-- ("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_1",
+		-- "The sultanate was originally named the Kingdom of Gapi, but later changed the name to be based off its capital, Ternate. Ternate and neighbouring Tidore were the world's single major producer of cloves, upon which their rulers became among the wealthiest and most powerful sultans in the Indonesian region. Much of their wealth, however, was wasted fighting each other. Up until the Dutch completed the colonisation of Maluku in the 19th century, the Sultans of Ternate ruled empires that claimed at least nominal influence as far as Ambon, Sulawesi and Papua."	),
+		-- ("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_2",
+		-- "In part as a result of its trade-dependent culture, Ternate was one of the earliest places in the region to which Islam spread, probably coming from Java in the late 15th century. Initially, the faith was restricted to Ternate's small ruling family, and spread only slowly to the rest of the population."	),
+		-- ("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_3",
+		-- "From the 16th century onwards, the Ternate sultanate fell under the sway of the European colonial powers, first the Portuguese were permitted to build a fort on the island, but relations between the Ternateans and Portuguese were strained from the start, due to the generally poor behaviour of the Portuguese, combined with feeble attempts at Christianisation. The Ternateans expelled the Portuguese in 1575 after a five-year siege."	),
+		-- ("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_4",
+		-- "Spanish forces captured the former Portuguese fort from the Ternatese in 1606, deporting the Ternate Sultan and his entourage to Manila. In 1607 the Dutch came back to Ternate, where with the help of Ternateans they built a fort in Malayo. The island was divided between the two powers: the Spaniards were allied with Tidore and the Dutch with their Ternaten allies. Desiring to restore Ternate to its former glory and expel the western power, Sultan Sibori of Ternate (1675–1691) declared war to the Dutch, but the power of Ternate had greatly reduced over the years, he lost and was forced to concede more of his lands to the Dutch by an unjust treaty in 1683. By this treaty, Ternate had lost its equal position with the Dutch and became a vassal. However, the Sultans of Ternate and its people were never fully under Dutch control."	),
+		-- ("LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ZANZIBAR_CHAPTER_HISTORY_PARA_5",
+		-- "Sultan Haji Muhammad Usman (1896–1914) made a last attempt to drive out the Dutch by instigating revolts in the region; he failed and was dethroned, his wealth being confiscated, and he was exiled to Bandung, where he lived his remaining years until 1927. The throne of Ternate was left vacant from 1914 to 1927, until the board of ministers under the blessing of the Dutch created Crown Prince Iskandar Muhammad Jabir the next Sultan. The dynasty founded by Baab Mashur Malamo continues to the present, as does the Sultanate itself, although it no longer holds any political power."),
 --========================================================================================================================
 -- Husuni Kubwa (XP1 Wonder)
 --========================================================================================================================
-		("LOC_BUILDING_KILWA_KISIWANI_NAME",
-		"Husuni Kubwa"	);
+		-- ("LOC_BUILDING_KILWA_KISIWANI_NAME",
+		-- "Husuni Kubwa"	);
 --========================================================================================================================
 --========================================================================================================================
