@@ -21,7 +21,7 @@
 --		L1: WAKA OUTPOST
 --			While established in a City-State, provides a copy of its Luxury resources.
 --
---		R1: PETÉN EXPEDITION
+--		R1: PETÃ‰N EXPEDITION
 --			City States within 9 tiles lose Walls Strength, while this city gains Walls 
 --			Strength.
 --    
@@ -147,7 +147,7 @@ VALUES	('MOD_LIME_TEO_OWL_GRANT_CONQUEST_POP',				'ModifierId',		'MOD_LIME_TEO_O
 --		L1: WAKA OUTPOST
 --			While established in a City-State, provides a copy of its Luxury resources.
 --
---		R1: PETÉN EXPEDITION
+--		R1: PETÃ‰N EXPEDITION
 --			City States within 9 tiles lose Walls Strength, while this city gains Walls 
 --			Strength.
 --    
