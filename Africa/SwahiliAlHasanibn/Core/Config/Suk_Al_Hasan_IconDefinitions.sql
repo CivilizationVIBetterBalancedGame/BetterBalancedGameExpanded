@@ -50,8 +50,8 @@ VALUES  ('ICON_CIVILIZATION_SUK_SWAHILI',					'ICON_ATLAS_SUK_SWAHILI',				0),
 		('ICON_ETHNICITY_AFRICAN_UNIT_SUK_JAHAZI_PORTRAIT',		'ICON_ATLAS_SUK_SWAHILI',			3),
 		('ICON_ETHNICITY_SOUTHAM_UNIT_SUK_JAHAZI_PORTRAIT',		'ICON_ATLAS_SUK_SWAHILI',			3),
 		('ICON_ETHNICITY_MEDIT_UNIT_SUK_JAHAZI_PORTRAIT',		'ICON_ATLAS_SUK_SWAHILI',			3),
-		('ICON_ETHNICITY_ASIAN_UNIT_SUK_JAHAZI_PORTRAIT',		'ICON_ATLAS_SUK_SWAHILI',			3),
+		('ICON_ETHNICITY_ASIAN_UNIT_SUK_JAHAZI_PORTRAIT',		'ICON_ATLAS_SUK_SWAHILI',			3);
 
-		('ICON_CIVILIZATION_ZANZIBAR',						'ICON_ATLAS_SUK_TERNATE',				0);
+		-- ('ICON_CIVILIZATION_ZANZIBAR',						'ICON_ATLAS_SUK_TERNATE',				0);
 --==========================================================================================================================
 --==========================================================================================================================
