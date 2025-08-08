@@ -132,4 +132,6 @@ def combine_modinfo_files():
     with open('BBGExpanded.modinfo', 'w') as file:
         file.write(newFileStr)
 
-combine_modinfo_files()
+if __name__ == "__main__":
+    print("Combining modinfo files...")
+    combine_modinfo_files()

@@ -31,4 +31,5 @@ def rename_modinfo_files():
                     os.rename(modinfo_path, new_modinfo_path)
                     print(f'Renamed {modinfo_path} to {new_modinfo_path}')
 
-rename_modinfo_files()
+if __name__ == "__main__":
+    rename_modinfo_files()
