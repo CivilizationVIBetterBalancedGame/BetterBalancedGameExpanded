@@ -56,7 +56,7 @@ def combine_modinfo_files():
             load_order_tags = Bs_data.find_all("LoadOrder")
             # Append the string in each File tag with the mod folder name
             for b in load_order_tags:
-                b.string = f'{999-mod_cnt}{b.string}'
+                b.string = f'{9-mod_cnt}{b.string}'
                 
             author_tags = Bs_data.find_all("Authors")
             for tag in author_tags:
@@ -110,11 +110,11 @@ def combine_modinfo_files():
         dependenciesStr += f'    <Mod id="{key}" title="{value}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
-<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1"> -->
+<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="1000"> -->
 <!-- WIP ModID-->
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="1">
+<Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="1000">
   <Properties>
-    <Name>BBG Expanded</Name>
+    <Name>BBG Expanded WIP</Name>
     <Description>Expansion of new civs</Description>
     <Authors>{', '.join(sorted_authors)} (alphabetical order)</Authors>
     <SpecialThanks>{', '.join(sorted_special_thanks)} (alphabetical order)</SpecialThanks>

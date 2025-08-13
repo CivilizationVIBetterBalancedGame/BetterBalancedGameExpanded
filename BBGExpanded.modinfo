@@ -4,7 +4,7 @@
 <!-- WIP ModID-->
 <Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="1">
   <Properties>
-    <Name>BBG Expanded</Name>
+    <Name>BBG Expanded WIP</Name>
     <Description>Expansion of new civs</Description>
     <Authors>Apeul, Calcifer, ChimpanG, Chrisy15, JFD, Leugi, Lime, Rıaın, SailorCat, SeelingCat, Sukritact, p0kiehl, thecrazyscotsman (alphabetical order)</Authors>
     <SpecialThanks>Alexxis, Cat, ChimpanG, Chrisy, Darth, DarthKyofu, Dray, Enigma, JFD, LeeS, Leugi, Relic, Sailor, SailorCat, SeelingCat, Senshidenshi, Sloth, Sukritact, TranquilSilence, Zebenji, Zharques, p0khiel (alphabetical order)</SpecialThanks>
@@ -127,69 +127,69 @@
 <FrontEndActions>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <File>Africa/SwahiliAlHasanibn/Sukritact's Swahili Al Hasan ibn Sulaiman.dep</File>
 </UpdateArt>
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <File>Africa/SwahiliAlHasanibn/Core/Config/Suk_Al_Hasan_Config.sql</File>
 </UpdateDatabase>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>999301</LoadOrder>
+<LoadOrder>9301</LoadOrder>
 </Properties>
 <File>Africa/SwahiliAlHasanibn/Core/Config/Suk_Al_Hasan_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <File>Africa/SwahiliAlHasanibn/Core/Localisation/Suk_Al_Hasan_ConfigText.sql</File>
 </UpdateText>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <File>Africa/SwahiliAlHasanibn/Core/Config/Suk_Al_Hasan_Color.sql</File>
 </UpdateColors>
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Config.sql</File>
 </UpdateDatabase>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Localisation.sql</File>
 </UpdateText>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Sukritact's Trisong Detsen (Tibet).dep</File>
 </UpdateArt>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Color.sql</File>
 </UpdateColors>
 
 <UpdateIcons id="ConfigIcons">
 <Properties>
-<LoadOrder>9962</LoadOrder>
+<LoadOrder>62</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate.sql</File>
 </UpdateIcons>
@@ -199,14 +199,14 @@
 <UpdateIcons id="Icons_XP"/>
 <UpdateIcons id="Icons_XP2">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_XP2.sql</File>
 <File>DistrictIcons/sql/IconUpdate_XP.sql</File>
 </UpdateIcons>
 <UpdateIcons id="Icons_NewFrontier">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_STK1.sql</File>
 <File>DistrictIcons/sql/IconUpdate_STK3.sql</File>
@@ -216,38 +216,38 @@
 
 <UpdateDatabase id="Suk_Vercingetorix_DatabaseConfig">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Config.sql</File>
 </UpdateDatabase>
 <UpdateText id="Suk_Vercingetorix_TextConfig">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_ConfigText.sql</File>
 </UpdateText>
 <UpdateArt id="Suk_Vercingetorix_ArtConfig">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Sukritact's Vercingetorix (Gauls).dep</File>
 </UpdateArt>
 <UpdateIcons id="Suk_Vercingetorix_IconsConfig">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="Suk_Vercingetorix_ColorsConfig">
 <Properties>
-<LoadOrder>995101</LoadOrder>
+<LoadOrder>5101</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Color.sql</File>
 </UpdateColors>
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>99410</LoadOrder>
+<LoadOrder>410</LoadOrder>
 </Properties>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_Config.sql</File>
 </UpdateDatabase>
@@ -266,88 +266,88 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Config.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Colours.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Text.sql</File>
 </UpdateText>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Icons.sql</File>
 </UpdateIcons>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/Lime_Phoenicia_Ahiram.dep</File>
 </UpdateArt>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Config.sql</File>
 </UpdateDatabase>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/PortLime_TeKinichII.dep</File>
 </UpdateArt>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Colours.sql</File>
 </UpdateColors>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Icons.sql</File>
 </UpdateIcons>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Pedia.sql</File>
 </UpdateText>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Leader Configs.sql</File>
 </UpdateDatabase>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Icon Definitions.sql</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Icon Definitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Colors.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Game Text.sql</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Game Text.sql</File>
@@ -355,7 +355,7 @@
 </UpdateText>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Port Lime - Teotihuacan.dep</File>
 </UpdateArt>
@@ -382,21 +382,21 @@
 <InGameActions>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Sukritact's Swahili Al Hasan ibn Sulaiman.dep</File>
 </UpdateArt>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>999301</LoadOrder>
+<LoadOrder>9301</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Config/Suk_Al_Hasan_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Localisation/Suk_Al_Hasan_ConfigText.sql</File>
@@ -405,14 +405,14 @@
 </UpdateText>
 <ImportFiles id="ImportFiles">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Lua/Suk_AdjacencyHandlerItem_CoralConstructionBonus.lua</File>
 </ImportFiles>
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Gameplay/Suk_Al_Hasan_Buildings.sql</File>
@@ -422,21 +422,21 @@
 </UpdateDatabase>
 <AddGameplayScripts id="AddGameplayScripts">
 <Properties>
-<LoadOrder>999100</LoadOrder>
+<LoadOrder>9100</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Lua/Suk_Al_Hasan_CoreFunctions.lua</File>
 </AddGameplayScripts>
 <UpdateDatabase id="UpdateDatabaseXP1">
 <Properties>
-<LoadOrder>999101</LoadOrder>
+<LoadOrder>9101</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan_XP1</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Gameplay/Suk_Al_Hasan_Expansion1.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="UpdateDatabaseXP2">
 <Properties>
-<LoadOrder>999101</LoadOrder>
+<LoadOrder>9101</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan_XP2</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Gameplay/Suk_Al_Hasan_Expansion1.sql</File>
@@ -444,7 +444,7 @@
 </UpdateDatabase>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>999101</LoadOrder>
+<LoadOrder>9101</LoadOrder>
 </Properties>
 <Criteria>Suk_AlHasan</Criteria>
 <File>Africa/SwahiliAlHasanibn/Core/Config/Suk_Al_Hasan_Color.sql</File>
@@ -452,7 +452,7 @@
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Civilizations.sql</File>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Leaders.sql</File>
@@ -461,69 +461,69 @@
 </UpdateDatabase>
 <UpdateArt id="UpdateArt">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Sukritact's Trisong Detsen (Tibet).dep</File>
 </UpdateArt>
 <UpdateIcons id="UpdateIcons">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="UpdateText">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Localisation.sql</File>
 </UpdateText>
 <UpdateDatabase id="UpdateDatabase_XP2">
 <Properties>
-<LoadOrder>998101</LoadOrder>
+<LoadOrder>8101</LoadOrder>
 </Properties>
 <Criteria>Expansion2</Criteria>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_XP2.sql</File>
 </UpdateDatabase>
 <UpdateColors id="UpdateColors">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Core/Suk_Trisong_Color.sql</File>
 </UpdateColors>
 <AddGameplayScripts id="AddGameplayScripts">
 <Properties>
-<LoadOrder>998100</LoadOrder>
+<LoadOrder>8100</LoadOrder>
 </Properties>
 <File>Asia/TibetTrisongDetsen/Lua/Suk_Dzong.lua</File>
 </AddGameplayScripts>
 
 <UpdateDatabase id="Resources">
 <Properties>
-<LoadOrder>9975</LoadOrder>
+<LoadOrder>75</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/p0k_Resources.sql</File>
 </UpdateDatabase>
 <UpdateArt id="ResourcesArt">
 <Properties>
-<LoadOrder>9975</LoadOrder>
+<LoadOrder>75</LoadOrder>
 </Properties>
 <File>CIVITASResources/CIVITAS Resources.dep</File>
 </UpdateArt>
 <UpdateIcons id="ResourcesIcon">
 <Properties>
-<LoadOrder>9975</LoadOrder>
+<LoadOrder>75</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/CVS_Resource_Icon_Definitions.sql</File>
 </UpdateIcons>
 <UpdateText id="ResourcesText">
 <Properties>
-<LoadOrder>9975</LoadOrder>
+<LoadOrder>75</LoadOrder>
 </Properties>
 <File>CIVITASResources/Core/p0k_Resources_Localisation.sql</File>
 </UpdateText>
 <UpdateDatabase id="ResourcesMODE">
 <Properties>
-<LoadOrder>99710</LoadOrder>
+<LoadOrder>710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Industries.sql</File>
@@ -532,14 +532,14 @@
 </UpdateDatabase>
 <UpdateIcons id="ResourcesMODEIcon">
 <Properties>
-<LoadOrder>99710</LoadOrder>
+<LoadOrder>710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Icon_Definitions.sql</File>
 </UpdateIcons>
 <UpdateText id="ResourcesMODEText">
 <Properties>
-<LoadOrder>99710</LoadOrder>
+<LoadOrder>710</LoadOrder>
 </Properties>
 <Criteria>Monopolies_Mode</Criteria>
 <File>CIVITASResources/Core_MODE/p0k_Resources_MODE_Localisation.sql</File>
@@ -547,32 +547,32 @@
 
 <UpdateIcons id="Icons">
 <Properties>
-<LoadOrder>9962</LoadOrder>
+<LoadOrder>62</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate.sql</File>
 </UpdateIcons>
 <UpdateArt id="Art">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <File>DistrictIcons/.dep</File>
 </UpdateArt>
 <UpdateIcons id="Icons_XP">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <Criteria>Expansion1</Criteria>
 </UpdateIcons>
 <UpdateIcons id="Icons_XP2">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_XP2.sql</File>
 <File>DistrictIcons/sql/IconUpdate_XP.sql</File>
 </UpdateIcons>
 <UpdateIcons id="Icons_NewFrontier">
 <Properties>
-<LoadOrder>996200</LoadOrder>
+<LoadOrder>6200</LoadOrder>
 </Properties>
 <File>DistrictIcons/sql/IconUpdate_STK1.sql</File>
 <File>DistrictIcons/sql/IconUpdate_STK2.sql</File>
@@ -583,32 +583,32 @@
 
 <UpdateArt id="Suk_Vercingetorix_Art">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Sukritact's Vercingetorix (Gauls).dep</File>
 </UpdateArt>
 <UpdateColors id="Suk_Vercingetorix_Colors">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_Color.sql</File>
 </UpdateColors>
 <UpdateIcons id="Suk_Vercingetorix_Icons">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Common/Suk_Vercingetorix_IconDefinitions.sql</File>
 </UpdateIcons>
 <UpdateText id="Suk_Vercingetorix_Text">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_ConfigText.sql</File>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_LeaderText.sql</File>
 </UpdateText>
 <UpdateDatabase id="Suk_Vercingetorix_Base">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Civilizations.sql</File>
@@ -618,49 +618,49 @@
 </UpdateDatabase>
 <UpdateText id="Suk_Vercingetorix_BaseText">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Core/Localisation/Suk_Vercingetorix_InGameText.sql</File>
 </UpdateText>
 <AddGameplayScripts id="Suk_Vercingetorix_BaseScripts">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix</Criteria>
 <File>Europe/GaulVercingetorix/Lua/Suk_Vercingetorix_CoreFunctions.lua</File>
 </AddGameplayScripts>
 <UpdateDatabase id="Suk_Vercingetorix_XP1">
 <Properties>
-<LoadOrder>995101</LoadOrder>
+<LoadOrder>5101</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_Expansion1</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Expansion1.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_XP2">
 <Properties>
-<LoadOrder>995101</LoadOrder>
+<LoadOrder>5101</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_Expansion2</Criteria>
 <File>Europe/GaulVercingetorix/Core/Base/Suk_Vercingetorix_Expansion2.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLC">
 <Properties>
-<LoadOrder>995120</LoadOrder>
+<LoadOrder>5120</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Leader_DLC.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkCommon">
 <Properties>
-<LoadOrder>995110</LoadOrder>
+<LoadOrder>5110</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_Rework</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Civilizations_DLC.sql</File>
 </UpdateDatabase>
 <UpdateAudio id="Suk_Vercingetorix_Audio">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <File>Europe/GaulVercingetorix/Platforms/Windows/Audio/Suk_Vercingetorix_Banks.ini</File>
 <File>Europe/GaulVercingetorix/Platforms/Windows/Audio/Suk_Vercingetorix_Speech_Bank.bnk</File>
@@ -669,14 +669,14 @@
 </UpdateAudio>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkBase">
 <Properties>
-<LoadOrder>995111</LoadOrder>
+<LoadOrder>5111</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkBasic</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Districts_DLC.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="Suk_Vercingetorix_DLCReworkPlus">
 <Properties>
-<LoadOrder>995111</LoadOrder>
+<LoadOrder>5111</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkPlus</Criteria>
 <File>Europe/GaulVercingetorix/Core/DLC/Suk_Vercingetorix_Units_DLC.sql</File>
@@ -684,7 +684,7 @@
 </UpdateDatabase>
 <AddGameplayScripts id="Suk_Vercingetorix_DLCRework_Scripts">
 <Properties>
-<LoadOrder>995100</LoadOrder>
+<LoadOrder>5100</LoadOrder>
 </Properties>
 <Criteria>Suk_Vercingetorix_DLC_ReworkPlus</Criteria>
 <File>Europe/GaulVercingetorix/Lua/Suk_Vercingetorix_CoreFunctions.lua</File>
@@ -692,7 +692,7 @@
 
 <UpdateDatabase id="UpdateDatabase">
 <Properties>
-<LoadOrder>99410</LoadOrder>
+<LoadOrder>410</LoadOrder>
 </Properties>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_GameDefines.sql</File>
 <File>Mediterranean/MacedonOlympias/Core/MacedonOlympias_ModSupport.sql</File>
@@ -715,82 +715,82 @@
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Game Defines.sql</File>
 </UpdateDatabase>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Colours.sql</File>
 </UpdateColors>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/Lime_Phoenicia_Ahiram.dep</File>
 </UpdateArt>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Text.sql</File>
 </UpdateText>
 <AddGameplayScripts id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Lua.lua</File>
 </AddGameplayScripts>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>993100</LoadOrder>
+<LoadOrder>3100</LoadOrder>
 </Properties>
 <File>Mediterranean/PhoeniciaAhiram/core/Ahiram - Icons.sql</File>
 </UpdateIcons>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Leader.sql</File>
 </UpdateDatabase>
 <AddGameplayScripts id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Functions.lua</File>
 </AddGameplayScripts>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Icons.sql</File>
 </UpdateIcons>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/PortLime_TeKinichII.dep</File>
 </UpdateArt>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Diplomacy.sql</File>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Pedia.sql</File>
 </UpdateText>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>992333</LoadOrder>
+<LoadOrder>2333</LoadOrder>
 </Properties>
 <File>Meso/MayaTeKinichII/core/Port Lime - Te Kinich - Colours.sql</File>
 </UpdateColors>
 
 <UpdateDatabase id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Game Defines.sql</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Game Defines.sql</File>
@@ -798,20 +798,20 @@
 </UpdateDatabase>
 <UpdateIcons id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Icon Definitions.sql</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Icon Definitions.sql</File>
 </UpdateIcons>
 <UpdateColors id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Colors.sql</File>
 </UpdateColors>
 <UpdateText id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Game Text.sql</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Game Text.sql</File>
@@ -819,13 +819,13 @@
 </UpdateText>
 <UpdateArt id="NewAction">
 <Properties>
-<LoadOrder>991350</LoadOrder>
+<LoadOrder>1350</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Port Lime - Teotihuacan.dep</File>
 </UpdateArt>
 <AddGameplayScripts id="NewAction">
 <Properties>
-<LoadOrder>991300</LoadOrder>
+<LoadOrder>1300</LoadOrder>
 </Properties>
 <File>Meso/TheoticuanasTeotihuacan/Spearthrower Owl/Spearthrower-PopConqueror.lua</File>
 <File>Meso/TheoticuanasTeotihuacan/Teotihuacan/Teotihuacan-EnvoyDoubler.lua</File>
@@ -833,7 +833,7 @@
 
 <UpdateDatabase id="Thule_DB">
 <Properties>
-<LoadOrder>990100</LoadOrder>
+<LoadOrder>0100</LoadOrder>
 </Properties>
 <File>NorthAmerica/ThuleKiviuq/core/civilization/Thule_GameDefines.sql</File>
 <File>NorthAmerica/ThuleKiviuq/core/leader/kiviuq_dave/ThuleKiviuq_GameDefines.sql</File>
