@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="110">
+<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="110"> -->
 <!-- WIP ModID-->
-<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="110"> -->
+<Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="110">
   <Properties>
-    <Name>BBG Expanded v1.1</Name>
+    <Name>BBG Expanded WIP</Name>
     <Description>Expansion of new civs</Description>
     <Authors>Apeul, Calcifer, ChimpanG, Chrisy15, JFD, Leugi, Lime, Rıaın, SailorCat, SeelingCat, Sukritact, p0kiehl, thecrazyscotsman (alphabetical order)</Authors>
     <SpecialThanks>Alexxis, Cat, ChimpanG, Chrisy, Darth, DarthKyofu, Dray, Enigma, JFD, LeeS, Leugi, Relic, Sailor, SailorCat, SeelingCat, Senshidenshi, Sloth, Sukritact, TranquilSilence, Zebenji, Zharques, p0khiel (alphabetical order)</SpecialThanks>
