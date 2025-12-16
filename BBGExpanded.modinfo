@@ -362,13 +362,15 @@
 
 <UpdateDatabase id="MUU_Config_UpdateDatabase_Settings">
 <Properties>
-<LoadOrder>-13</LoadOrder>
+<LoadOrder>3</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnitsConfigUserSettings.sql</File>
 </UpdateDatabase>
+
+
 <UpdateDatabase id="MUU_Config_UpdateDatabase">
 <Properties>
-<LoadOrder>-15</LoadOrder>
+<LoadOrder>5</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnitsConfig.sql</File>
 </UpdateDatabase>
@@ -388,13 +390,13 @@
 </UpdateText>
 <UpdateIcons id="MUU_Config_Icons">
 <Properties>
-<LoadOrder>-12</LoadOrder>
+<LoadOrder>2</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnitsIcons.xml</File>
 </UpdateIcons>
 <UpdateArt id="MUU_Config_ModArt">
 <Properties>
-<LoadOrder>-11</LoadOrder>
+<LoadOrder>1</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/MoarUniqueUnits.dep</File>
 </UpdateArt>
@@ -880,13 +882,13 @@
 
 <UpdateDatabase id="MUU_UpdateDatabase_Settings">
 <Properties>
-<LoadOrder>-13</LoadOrder>
+<LoadOrder>3</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnitsUserSettings.sql</File>
 </UpdateDatabase>
 <UpdateDatabase id="MUU_UpdateDatabase">
 <Properties>
-<LoadOrder>-15</LoadOrder>
+<LoadOrder>5</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnits.sql</File>
 </UpdateDatabase>
@@ -906,13 +908,13 @@
 </UpdateText>
 <UpdateIcons id="MUU_Icons">
 <Properties>
-<LoadOrder>-14</LoadOrder>
+<LoadOrder>4</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/Data/MOARUniqueUnitsIcons.xml</File>
 </UpdateIcons>
 <UpdateArt id="MUU_ModArt">
 <Properties>
-<LoadOrder>-13</LoadOrder>
+<LoadOrder>3</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/MoarUniqueUnits.dep</File>
 </UpdateArt>

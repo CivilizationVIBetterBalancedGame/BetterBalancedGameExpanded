@@ -85,4 +85,4 @@ INSERT INTO ConfigEnabledUniqueUnits (OwnerType, Type, Enabled, SortIndex) VALUE
 
 CREATE TABLE UnitsToDelete (Type VARCHAR);
 
-INSERT INTO UnitsToDelete VALUES ('UNIT_ENGLISH_SEADOG');
+-- INSERT INTO UnitsToDelete VALUES ('UNIT_ENGLISH_SEADOG');
