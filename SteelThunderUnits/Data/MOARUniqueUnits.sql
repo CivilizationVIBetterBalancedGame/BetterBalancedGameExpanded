@@ -1588,9 +1588,6 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('PLUS_X_DISTRICT
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('PLUS_X_VERSUS_STRONGER_UNITS', 'Amount', '6'); -- Mehal
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('INVISIBLE_ON_RAINFOREST_FOREST_MARSH', 'Hidden', 'true'); -- VietCong
 
--- Polish Winged Hussar Fix
-UPDATE Units SET MandatoryObsoleteTech = 'TECH_COMPOSITES' WHERE UnitType = 'UNIT_POLISH_HUSSAR';
-
 
 /* ------------------------- */
 /* Rise & Fall Compatibility */
@@ -1610,7 +1607,7 @@ AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MAORI_TUPARA');
 
 -- INSERT OR IGNORE INTO UnitReplaces SELECT 'UNIT_SPANISH_TERCIO', 'UNIT_PIKE_AND_SHOT' WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
 
-UPDATE Units SET Cost = 140 WHERE UnitType = 'UNIT_GEORGIAN_KHEVSURETI' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_GEORGIAN_KHEVSURETI');
+-- UPDATE Units SET Cost = 140 WHERE UnitType = 'UNIT_GEORGIAN_KHEVSURETI' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_GEORGIAN_KHEVSURETI');
 
 
 /* ----------------------------- */
