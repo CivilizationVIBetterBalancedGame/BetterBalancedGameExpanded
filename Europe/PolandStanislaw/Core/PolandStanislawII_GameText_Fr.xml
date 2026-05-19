@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_JFD_STANISLAW_NAME" Language="fr_FR">
+			<Text>Stanislas II</Text>
+			<Gender>masculine:no_article</Gender>
+			<Plurality>1</Plurality>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_NAME" Language="fr_FR">
+			<Text>Dîners du jeudi</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_DESCRIPTION" Language="fr_FR">
+			<Text>Apprécie les civilisations générant beaucoup de [ICON_CULTURE] culture. Essaie d'employer autant de personnages illustres que possible, et respecte celles qui font de même. Méprise les civilisations qui négligent le recrutement de personnages illustres.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JFD_STANISLAW_REASON_LAGS_PATRONAGE" Language="fr_FR">
+			<Text>(Vous avez recruté peu de personnages illustres.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="fr_FR">
+			<Text>Stanislas est déçu par votre manque d'intérêt pour la protection des grandes personnalités.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_PATRONAGE" Language="fr_FR">
+			<Text>(Vous avez recruté plus de personnages illustres.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_PATRONAGE" Language="fr_FR">
+			<Text>Stanislas est impressionné par votre mécénat exemplaire pour les arts et les sciences.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_CULTURE" Language="fr_FR">
+			<Text>(Vous générez beaucoup de culture.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_CULTURE" Language="fr_FR">
+			<Text>Stanislas est ravi de vos grands progrès culturels.</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JFD_STANISLAW" Language="fr_FR">
+			<Text>Le noble peuple du Commonwealth vous a élu, Stanislas de la maison des Poniatowski, comme leur nouveau roi. Il vous appartient dorénavant de rechercher l'équilibre entre les libertés de l'ancien temps et le besoin d'illuminer la conscience publique pour les temps à venir. Entourez-vous d'hommes de culture et d'érudition, et l'Histoire se souviendra sûrement de vous comme Auguste.</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_NAME" Language="fr_FR">
+			<Text>Commission de l'éducation nationale</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="fr_FR">
+			<Text>Construit les places du théâtre deux fois plus rapidement. Les bâtiments de la place du théâtre et les chefs-d'œuvre de la littérature génèrent deux points de [ICON_SCIENCE] science. Apparition de l'unité exclusive de l'uhlan une fois la fonte des métaux découverte.</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_TITLE" Language="fr_FR">
+			<Text>Stanislas II</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_SUBTITLE" Language="fr_FR">
+			<Text>Roi de Pologne, Grand-duc de Lituanie</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_QUOTE" Language="fr_FR">
+			<Text>Pour apprendre la vérité, il faut commencer par douter.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_1" Language="fr_FR">
+			<Text>Stanislas Auguste Poniatowski est né le 17 janvier 1732 de Stanislas Poniatowski, castellan de Cracovie, et de Konstancja Czartoryska. La famille Poniatowski comptait parmi la plus haute noblesse polonaise. Il fut éduqué par sa mère, puis par des tuteurs privés, dont l'ambassadeur de Russie Herman Karl von Keyserling. Adolescent, il n'avait pas beaucoup d'amis. Au lieu de cela, il développa une passion pour les livres, qu'il conservera tout au long de sa vie. Il fit son premier voyage à l'étranger en Europe occidentale en 1748, lorsqu'il accompagna l'armée russe qui avançait en Allemagne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_2" Language="fr_FR">
+			<Text>Poniatowski dut sa carrière à ses liens familiaux avec la puissante famille Czartoryski et leur faction politique, connue sous le nom de Familia. La Familia l'envoya Saint-Pétersbourg en 1755, où il fut au service de Charles Hanbury Williams, qui avait été nommé ambassadeur britannique en Russie. À Saint-Pétersbourg, Poniatowski rencontra Catherine Alexeievna (la future impératrice Catherine la Grande). Tous deux devinrent amants. Poniatowski fut contraint de quitter Saint-Pétersbourg deux fois, en juillet 1756 et en août 1758, en raison d'intrigues judiciaires.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_3" Language="fr_FR">
+			<Text>Après la mort du roi Auguste III en octobre 1763, des négociations commencèrent quant à l'élection du nouveau roi. Catherine apporta son soutien à Stanislas. Les Russes dépensèrent environ 2,5 millions de roubles pour soutenir son élection, les partisans de Stanislas et ses opposants s'engagèrent dans des affrontements militaires, et en fin de compte, l'armée russe ne fut déployée qu'à quelques milles du lieu du scrutin. Il n'y eut pas d'autres prétendants sérieux, et lors de l'assemblée de la Diète du 7 septembre 1764, Stanislas Poniatowski, 32 ans, fut élu roi malgré une faible participation.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_4" Language="fr_FR">
+			<Text>Durant l'assemblée de la Diète ("Parlement" ou "Assemblée") en octobre 1766, Stanislas tenta de mettre en œuvre une réforme radicale, restreignant la désastreuse politique de liberum veto. Les conservateurs s'y opposèrent, soutenus par les ambassadeurs prussiens et russes. Abandonné par la Familia, les réformes de Stanislas échouèrent. Pendant ce temps, certaines factions se rallièrent sous la bannière de la Confédération de Bar, qui devint une insurrection contre l'ingérence de la Russie. Après une tentative infructueuse de trouver des alliés en Europe occidentale, Stanislas et la Familla n'eurent d'autre choix que de s'appuyer davantage sur l'Empire russe, qui traita la Pologne comme un protectorat. Face à la faiblesse de la Pologne et au chaos persistant, l'Autriche, la Russie et la Prusse décidèrent d'intervenir militairement, en échange de concessions territoriales importantes du Commonwealth. Bien que Stanislas II protesta contre la Première Partition du Commonwealth en 1772, il fut impuissant à faire quoi que ce soit à ce sujet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_5" Language="fr_FR">
+			<Text>Finalement, Stanislas et la Diète signèrent le traité de partage ; d'autres réformes furent adoptées en même temps. Le pouvoir royal fut restreint. La Diète créa deux institutions remarquables : le Conseil permanent, un organe gouvernemental principal en opération continue, et la Commission de l'éducation nationale. Les séparateurs voulaient que le Conseil soit plus facile à contrôler que la Diète indisciplinée, et il resta sous l'influence de l'Empire russe. Néanmoins, il s'agit d'une amélioration significative dans la gouvernance du Commonwealth. La nouvelle législation fut garantie par l'Empire russe, lui donnant une autre excuse pour interférer dans la politique du Commonwealth en cas de besoin.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_6" Language="fr_FR">
+			<Text>Dans le contexte des guerres menées contre l'Empire ottoman par l'Empire autrichien et l'Empire russe, Stanislas II tenta de faire entrer la Pologne dans l'alliance austro-russe. L'alliance polono-russe ne fut cependant jamais mise en œuvre. Lors de la Diète de quatre ans qui suivit, de 1788 à 1792 (connue sous le nom de Grande Diète), Stanislas lança une série de réformes et fut le co-auteur de la Constitution du 3 mai 1791. La Constitution introduisit des réformes radicales. Stanislas lui-même la décrivit, selon un récit contemporain, comme "fondée principalement sur celles d'Angleterre et des États-Unis d'Amérique, mais évitant les fautes et les erreurs des deux en s'adaptant autant que possible aux circonstances locales et particulières du pays."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_7" Language="fr_FR">
+			<Text>Peu de temps après, la noblesse polonaise conservatrice forma la Confédération de Targowica pour renverser la Constitution, qu'elle considérait comme une menace pour les libertés traditionnelles et les privilèges dont elles jouissaient. Les confédérés s'alignèrent avec Catherine la Grande de Russie, et l'armée russe pénétra en Pologne, marquant le début de la guerre polono-russe de 1792, également connue sous le nom de "guerre pour la défense de la Constitution". La Diète vota pour augmenter l'effectif de l'armée polonaise à cent mille hommes, mais en raison du manque de temps et de fonds, ce nombre ne fut jamais atteint. Les tentatives de négociations de Stanislas avec la Russie se révélèrent futiles. Le 24 juillet 1792, Stanislas rejoignit la Confédération de Targowica. Malgré, ou en raison de son changement de camp, il ne sauva pas le Commonwealth. Lui et les réformateurs perdirent beaucoup d'influence, à la fois au sein du pays et avec Catherine. Les Confédération de Targowica ne fut pas victorieuse pour autant. À leur grande surprise, une deuxième partition de la Pologne se produisit. Face à son impuissance, Stanislas songea à abdiquer ; entre-temps, il essaya de sauver toutes les réformes possibles.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_8" Language="fr_FR">
+			<Text>Les plans de Stanislas II furent ruinés par l'insurrection anti-russe de Kościuszko. Le roi ne l'encouragea pas, il la soutint lorsqu'elle éclata, ne voyant aucune autre option honorable. Sa défaite marqua la fin du Commonwealth. Stanislas fit son possible pour gouverner le pays durant la brève période suivant l'échec de l'insurrection, mais le 2 décembre 1794, Catherine exigea qu'il quitte Varsovie, une demande à laquelle il accéda le 7 janvier 1795, laissant la capitale sous l'escorte militaire russe et s'installant brièvement à Grodno. Le 24 octobre 1795, la troisième Partition  de la Pologne fut signée ; un mois et un jour plus tard, le 25 novembre, Stanislas Poniatowski abdiqua. Il mourut après un accident vasculaire cérébral le 12 février 1798.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_CAPSULE_BODY" Language="fr_FR">
+			<Text>La Pologne de Stanislas II prône le mélange de la culture, de la science et de l'armée, tout en s'appuyant sur ses citoyens pour alimenter son avancement scientifique et culturel, et obtient des résultats sûrs, même si imprévisibles.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_DETAILED_BODY" Language="fr_FR">
+			<Text>Stanislas, tout comme Hedwige, peut bénéficier de la construction de campements dans chaque ville : en plus de revendiquer les cases avoisinantes, l'achèvement d'un campement fournira un Eurêka aléatoirement. De manière similaire, la construction d'une place du théâtre procurera une inspiration. L'accent mis sur la culture et l'armée ne devrait pas stopper le progrès scientifique des Polonais, car les bâtiments culturels de Stanislas produisent chacun une petite quantité de science. Si elles font défaut, la production et l'or peuvent être relativement renforcées grâce à la construction unique de la halle aux draps et aux routes commerciales internes. La sécurité est assurée à mi-jeu par l'unité unique de l'uhlan, une unité de cavalerie légère très mobile frappant fort en débordant un ennemi. La Pologne de Stanislas gère prudemment ses villes et ses districts, construisant idéalement des plateformes commerciales, des places du théâtre et des campements dans chaque ville. Ces fondations fourniront une base solide pour une croissance équilibrée tout au long du jeu, ce qui permettra à la Pologne de choisir le type de victoire qu'elle souhaite.</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Bienvenue, bienvenue, noble invité ! La table vient juste d'être dressée. Je suis Stanislas, le protecteur de ce royaume.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Souhaitez-vous vous joindre à moi dans les jardins de mon palais ? Je vous assure, c'est un endroit éloigné des préoccupations mondaines.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Splendide ! Mes émissaires devraient arriver d'ici peu, et feront connaissance avec votre domaine.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je propose que nous échangions des informations sur nos capitales. Nous avons beaucoup à apprendre les uns des autres.</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Bonjour, noble invité.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>J'ai accueilli vos délégués en personne. Ils seront placés dans les meilleurs logements disponibles.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Mon peuple ne souhaite pas d'ingérence étrangère. Votre délégation a été renvoyée.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>J'ai envoyé un émissaire à votre capitale, avec en cadeau des rôtis de faisans succulents et de la liqueur aromatisée. J'espère que vous les trouverez délicieux.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>La Diète et moi-même acceptons.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je n'ai pas reçu la permission de la Diète pour ratifier cet accord.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Mon peuple a exprimé son intérêt pour un accord sur l'ouverture de nos frontières. Ils souhaitent voyager et explorer le monde entier.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je suis tout à fait d'accord. À vrai dire, j'ai voulu vous proposer la même chose.</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Pas cette fois-ci, non.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Vous avez été de bonne compagnie depuis un bon moment. Devrions-nous déclarer notre amitié au monde ?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je vous remercie beaucoup !</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je comprends, mais cela m'attriste.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Le Commonwealth exprime son intérêt à trouver un allié ferme et de confiance dans ce monde de traîtres. Seriez-vous prêt à devenir notre partenaire ?</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Les portes de mon palais sont toujours ouvertes pour quelqu'un aussi éclairé que vous.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Vous faites même peur à mes paons, vous êtes une brute non éclairée. Fichez le camp de mon jardin !</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Si vous pensez que vous pouvez faire brandir votre sabre sans que mon peuple se soulève et réponde à vos actions, vous vous trompez lourdement.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_FREDERICK_ANY}</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_FREDERICK_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Ce ne sera pas possible. Les nouvelles de votre trahison se répandront sur des tracts en un rien de temps.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Je ne peux plus supporter votre comportement méprisable. Je suis à court de patience. (Dénonciation)</Text>
+		</Row>
+		<!--Rationale-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="fr_FR">
+			<Text>(Vous avez recruté peu de personnages illustres.)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Ainsi soit-il. Je vais immédiatement proposer une motion à la Diète pour augmenter les taxes de guerre.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>La Diète a décidé que nos deux nations entrent en état de guerre. Soyez prêt.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>La Diète a accepté de ratifier ce traité de paix entre nos nations.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>La Diète n'acceptera jamais des termes si humiliants. Les hostilités doivent se poursuivre.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>Nos nations sont fatiguées de combattre. Posons les armes et reconstruisons nos deux pays.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>En raison de cette défaite, j'abdique. La Couronne est à vous.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="fr_FR">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_STANISLAW_ANY]</Text>
+		</Row>
+		<!--UHLAN-->
+		<Row Tag="LOC_UNIT_JFD_UHLAN_NAME" Language="fr_FR">
+			<Text>Uhlan|Uhlans</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="fr_FR">
+			<Text>Exclusive à la Pologne de Stanislas II, cette unité de la Renaissance reçoit un bonus de combat si elle attaque de flanc.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JFD_UHLAN_CHAPTER_HISTORY_PARA_1" Language="fr_FR">
+			<Text>L'uhlan était une unité de cavalerie légère polonaise armée de lances, de sabres et de pistolets qui fréquentèrent les armées de la Russie, de la Prusse et de l'Autriche aux 18ème et 19ème siècles. Descendants des colons tartares de Lituanie, le premier régiment uhlan fut créé par le Commonwealth polono-lituanien au début des années 1700. Rapide et ne portant pas l'armure lourde qui dominait auparavant la guerre montée, l'uhlan devint rapidement populaire pour sa polyvalence et sa vitesse, et était capable de mener des opérations de reconnaissance, des escarmouches ou des charges de front. De nos jours, un régiment de cérémonie d'uhlans est conservé par les forces armées polonaises.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_JFD_UHLAN_FLANKING_BONUS_DESCRIPTION" Language="fr_FR">
+			<Text>[ICON_Strength] Puissance de combat {1_Amount} si l'unité attaque de flanc.</Text>
+		</Row>
+		<!--MOD SUPPORT-->
+	</LocalizedText>
+</GameData>

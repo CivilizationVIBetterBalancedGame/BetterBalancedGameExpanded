@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_AUSTRIA</CivilizationType>
+			<LeaderType>LEADER_MER_MARIA_THERESA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MER_AUSTRIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MER_AUSTRIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_MARIA_THERESA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_MARIA_THERESA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MER_CROWNLANDS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MER_AUSTRIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_THERESIAN_REFORM_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_MARIA_THERESA</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_MARIA_THERESA_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_NEUTRAL_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_AUSTRIA</CivilizationType>
+			<LeaderType>LEADER_MER_MARIA_THERESA</LeaderType>
+			<Type>BUILDING_MER_COFFEE_HOUSE</Type>
+			<Name>LOC_BUILDING_MER_COFFEE_HOUSE_NAME</Name>
+			<Description>LOC_BUILDING_MER_COFFEE_HOUSE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_MER_COFFEE_HOUSE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_AUSTRIA</CivilizationType>
+			<LeaderType>LEADER_MER_MARIA_THERESA</LeaderType>
+			<Type>UNIT_MER_GRENZER</Type>
+			<Name>LOC_UNIT_MER_GRENZER_NAME</Name>
+			<Description>LOC_UNIT_MER_GRENZER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_GRENZER</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
+
+

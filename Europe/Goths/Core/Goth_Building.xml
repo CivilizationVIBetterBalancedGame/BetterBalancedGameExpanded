@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DENMARK_Uniques -->
+<!-- Author: Merrick -->
+<!-- DateCreated: 3/9/2017 10:58:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_MER_HLAIW" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MER_HLAIW" ReplacesBuildingType="BUILDING_SHRINE"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_MER_HLAIW" 
+			 Name="LOC_BUILDING_MER_HLAIW_NAME" 
+			 Description="LOC_BUILDING_MER_HLAIW_DESCRIPTION"
+			 PrereqTech="TECH_ASTROLOGY" 
+			 PrereqDistrict="DISTRICT_HOLY_SITE" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="70" 
+			 AdvisorType="ADVISOR_RELIGIOUS" 
+			 Maintenance="1" 
+			 CitizenSlots="1"
+			 TraitType="TRAIT_CIVILIZATION_BUILDING_MER_HLAIW"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MER_HLAIW" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MER_HLAIW" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MER_HLAIW" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_MER_HLAIW"/>
+	</Unit_BuildingPrereqs>
+	<Modifiers>
+		<!--Grant Yield-->
+		<Row>
+			<ModifierId>MER_HLAIW_FAITH_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MER_HLAIW_CULTURE_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Grant Yield-->
+		<Row>
+			<ModifierId>MER_HLAIW_FAITH_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MER_HLAIW_FAITH_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MER_HLAIW_CULTURE_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MER_HLAIW_CULTURE_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MER_HLAIW</BuildingType>
+			<ModifierId>MER_HLAIW_FAITH_PER_POP</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MER_HLAIW</BuildingType>
+			<ModifierId>MER_HLAIW_CULTURE_PER_POP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameData>

@@ -8,17 +8,26 @@ def get_mod_folders():
     Returns a list of all folders in the current directory whose names start with 'Mod'.
     """
     return [
+        'Africa/Morocco',
         'Africa/SwahiliAlHasanibn',
+        'Africa/Zimbabwe',
         'Asia/TibetTrisongDetsen',
         'CIVITASResources',
         'DistrictIcons',
+        'Europe/Austria',
         'Europe/GaulVercingetorix',
+        'Europe/Goths',
+        'Europe/PolandStanislaw',
         'Mediterranean/MacedonOlympias',
         'Mediterranean/PhoeniciaAhiram',
         'Meso/MayaTeKinichII',
         'Meso/TheoticuanasTeotihuacan',
+        'Meso/Taino',
+        'Meso/TainoAnacaona',
         'NorthAmerica/ThuleKiviuq',
-        'SteelThunderUnits'
+        'SteelThunderUnits',
+        'Wonders/AreciboObservatory',
+        'Wonders/PorcelainTower'
     ]
 
 def combine_modinfo_files():
@@ -28,6 +37,7 @@ def combine_modinfo_files():
     special_thanks_dict = {}
     author_dict['Calcifer'] = 1
     author_dict['Apeul'] = 1
+    author_dict['Pebbleton'] = 1
     files_dict = {}
     for mod in get_mod_folders():
         modinfo_path = os.path.join(mod, "files.xml")
@@ -54,11 +64,6 @@ def combine_modinfo_files():
             for b in lua_replace_tags:
                 files_dict[b.string] = mod
 
-            load_order_tags = Bs_data.find_all("LoadOrder")
-            # Append the string in each File tag with the mod folder name
-            for b in load_order_tags:
-                b.string = f'{9-mod_cnt}{b.string}'
-                
             author_tags = Bs_data.find_all("Authors")
             for tag in author_tags:
                 delimiters = r'[;,\s]+'
@@ -87,14 +92,17 @@ def combine_modinfo_files():
     extraDependencies["9DE86512-DE1A-400D-8C0A-AB46EBBF76B9"] = "LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"
     extraDependencies["A1100FC4-70F2-4129-AC27-2A65A685ED08"] = "LOC_BYZANTIUM_GAUL_MOD_TITLE"
     extraDependencies["E2749E9A-8056-45CD-901B-C368C8E83DEB"] = "LOC_MACEDONIA_PERSIA_MOD_TITLE"
+    extraDependencies["9ED63236-617C-45A6-BB70-8CB6B0BE8ED2"] = "LOC_JULIUS_CAESAR_MOD_TITLE"
     dependenciesStr = ''
     for key, value in extraDependencies.items():
         dependenciesStr += f'    <Mod id="{key}" title="{value}"/>\n'
     newFileStr = f'''<?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
-<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="120"> -->
+<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="122"> -->
+<!-- Published WIP ModID-->
+<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3888" version="200">
 <!-- WIP ModID-->
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="120">
+<!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09144f6f3e00" version="122"> -->
   <Properties>
     <Name>BBG Expanded WIP</Name>
     <Description>Expansion of new civs</Description>
@@ -111,7 +119,7 @@ def combine_modinfo_files():
         #         newFileStr += f'item'
         # newFileStr += f'</{key}>\n'
     newFileStr += '</Mod>'
-    with open('BBGExpanded.modinfo', 'w') as file:
+    with open('BBGExpanded.modinfo', 'w', encoding='utf-8') as file:
         file.write(newFileStr)
 
 if __name__ == "__main__":

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Austria_NamedPlaces -->
+<!-- DateCreated: 2/15/2019 11:35:53 PM -->
+<GameData>
+	<Types>
+		<!-- Named Volcanoes -->
+		<Row Type="NAMED_VOLCANO_AUSTRIA" Kind="KIND_NAMED_VOLCANO"/>
+		<!-- Named Mountains -->
+		<Row Type="NAMED_MOUNTAIN_AUSTRIA_1" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_AUSTRIA_2" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_AUSTRIA_3" Kind="KIND_NAMED_MOUNTAIN"/>
+	</Types>
+	<NamedVolcanoes>
+		<Row NamedVolcanoType="NAMED_VOLCANO_AUSTRIA" Name="LOC_NAMED_VOLCANO_AUSTRIA_NAME"/>
+	</NamedVolcanoes>
+	<NamedMountains>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_1" Name="LOC_NAMED_MOUNTAIN_AUSTRIA_1_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_2" Name="LOC_NAMED_MOUNTAIN_AUSTRIA_2_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_3" Name="LOC_NAMED_MOUNTAIN_AUSTRIA_3_NAME"/>
+	</NamedMountains>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_DANUBE" CivilizationType="CIVILIZATION_MER_AUSTRIA"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_AUSTRIA" CivilizationType="CIVILIZATION_MER_AUSTRIA"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_1" CivilizationType="CIVILIZATION_MER_AUSTRIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_2" CivilizationType="CIVILIZATION_MER_AUSTRIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_AUSTRIA_3" CivilizationType="CIVILIZATION_MER_AUSTRIA"/>
+	</NamedMountainCivilizations>
+	
+</GameData>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags22"/>
+			<m_ObjectName text="UhlanUnitFlags22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags256"/>
+			<m_ObjectName text="UhlanUnitFlags256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags32"/>
+			<m_ObjectName text="UhlanUnitFlags32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags38"/>
+			<m_ObjectName text="UhlanUnitFlags38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags50"/>
+			<m_ObjectName text="UhlanUnitFlags50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitFlags80"/>
+			<m_ObjectName text="UhlanUnitFlags80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JFD_STANISLAW_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JFD_STANISLAW_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw256"/>
+			<m_ObjectName text="Stanislaw256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw32"/>
+			<m_ObjectName text="Stanislaw32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw45"/>
+			<m_ObjectName text="Stanislaw45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw48"/>
+			<m_ObjectName text="Stanislaw48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw50"/>
+			<m_ObjectName text="Stanislaw50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw55"/>
+			<m_ObjectName text="Stanislaw55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw64"/>
+			<m_ObjectName text="Stanislaw64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stanislaw80"/>
+			<m_ObjectName text="Stanislaw80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_STANISLAW_1"/>
+			<m_ObjectName text="JFD_STANISLAW_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_STANISLAW_2"/>
+			<m_ObjectName text="JFD_STANISLAW_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_STANISLAW_3"/>
+			<m_ObjectName text="JFD_STANISLAW_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JFD_STANISLAW_4"/>
+			<m_ObjectName text="JFD_STANISLAW_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits200"/>
+			<m_ObjectName text="UhlanUnitPortraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits256"/>
+			<m_ObjectName text="UhlanUnitPortraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits38"/>
+			<m_ObjectName text="UhlanUnitPortraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits50"/>
+			<m_ObjectName text="UhlanUnitPortraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits70"/>
+			<m_ObjectName text="UhlanUnitPortraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UhlanUnitPortraits95"/>
+			<m_ObjectName text="UhlanUnitPortraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_JFD_PolandStanislawII"/>
+			<m_ObjectName text="Moment_UniqueUnit_JFD_PolandStanislawII"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

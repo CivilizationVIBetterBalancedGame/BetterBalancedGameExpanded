@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_MER_THEODORIC_NAME" Language="en_US">
+			<Text>Theodoric</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE" Language="en_US">
+			<Text>Gothorum Romanorumque</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production towards districts in conquered cities, reduced by 10% for each specialty district already present in the city. Gain the Militond unique unit at Iron Working.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_MILITOND_NAME" Language="en_US">
+			<Text>Militōnd</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_MILITOND_DESCRIPTION" Language="en_US">
+			<Text>A unique land unit</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_MILITOND_NAME" Language="en_US">
+			<Text>Militōnd</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_MILITOND_DESCRIPTION" Language="en_US">
+			<Text>Replaces the Swordsman.[NEWLINE]Doesn't require Iron. Free [ICON_Promotion] Promotion when trained, purchased, or upgraded from earlier unit. +10 [ICON_Strength] Strength in Gothic districts.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_MILITOND_PROMOTION_NAME" Language="en_US">
+			<Text>Roman Legacy</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_MILITOND_PROMOTION_DESC" Language="en_US">
+			<Text>Free Promotion</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_MILITOND_DISTRICT_NAME" Language="en_US">
+			<Text>Group of Hundred</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_MILITOND_DISTRICT_DESC" Language="en_US">
+			<Text>+10 [ICON_Strength] Strength in Gothic Districts.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_NAME" Language="en_US">
+			<Text>Gothic Migration</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION" Language="en_US">
+			<Text>When settling or conquering a city for the first time receive +1 [ICON_Citizen] Population in every Gothic city within 6 tiles.</Text>
+		</Row>
+		<Row Tag="LOC_GOTHIC_MIGRATION_POP_GAIN" Language="en_US">
+			<Text>City gains +{1: number #,###.#} [ICON_Citizen] population!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GADRAUHT_NAME" Language="en_US">
+			<Text>Gadrauht</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MER_GADRAUHT_DESCRIPTION" Language="en_US">
+			<Text>A unique land unit</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_GADRAUHT_NAME" Language="en_US">
+			<Text>Gadrauht</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MER_GADRAUHT_DESCRIPTION" Language="en_US">
+			<Text>Replaces the Spearman.[NEWLINE]Higher Combat Strength and cheaper to produce. Combat victories grant [ICON_Culture] Culture equal to 50% of defeated unit's base combat strength. Can only be trained in cities with a [ICON_Citizen] Population of 2 of more. -1 [ICON_Citizen] Population in the city when built.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_GADRAUHT_CULTURE_VICTORY_NAME" Language="en_US">
+			<Text>Drauhtinon</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_MER_GADRAUHT_CULTURE_VICTORY_DESC" Language="en_US">
+			<Text>Combat victories grant [ICON_Culture] Culture equal to 50% of defeated unit's base combat strength.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_HLAIW_NAME" Language="en_US">
+			<Text>Hlaiw</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_MER_HLAIW_DESCRIPTION" Language="en_US">
+			<Text>A unique building</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_HLAIW_NAME" Language="en_US">
+			<Text>Hlaiw</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MER_HLAIW_DESCRIPTION" Language="en_US">
+			<Text>Replaces the Shrine. [NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. Additional +0.25 [ICON_Faith] Faith and +0.25 [ICON_Culture] Culture per [ICON_Citizen] Citizen in this city.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_GOTHS_NAME" Language="en_US">
+			<Text>Goths</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_GOTHS_DESCRIPTION" Language="en_US">
+			<Text>Goths</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_GOTHS_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
+			<Text>Gothic Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MER_GOTHS_ADJECTIVE"	  Language="en_US">
+			<Text>Gothic</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_1" Language="en_US">
+			<Text>Gothiscandza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_2" Language="en_US">
+			<Text>Arheimar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_3" Language="en_US">
+			<Text>Reccopolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_4" Language="en_US">
+			<Text>Victoriacum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_5" Language="en_US">
+			<Text>Lugo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_6" Language="en_US">
+			<Text>Ologicus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_7" Language="en_US">
+			<Text>Baiyara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_8" Language="en_US">
+			<Text>Novae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_9" Language="en_US">
+			<Text>Narbo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_10" Language="en_US">
+			<Text>Tyras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_11" Language="en_US">
+			<Text>Olbia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_12" Language="en_US">
+			<Text>Turda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_13" Language="en_US">
+			<Text>Apulon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_14" Language="en_US">
+			<Text>Oium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_15" Language="en_US">
+			<Text>Tyrin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_16" Language="en_US">
+			<Text>Skupi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_17" Language="en_US">
+			<Text>Oescus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_18" Language="en_US">
+			<Text>Sirmum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_19" Language="en_US">
+			<Text>Singidunum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_20" Language="en_US">
+			<Text>Pavia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_21" Language="en_US">
+			<Text>Tarragona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_22" Language="en_US">
+			<Text>Saragossa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_23" Language="en_US">
+			<Text>Malaga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_24" Language="en_US">
+			<Text>Palencia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_25" Language="en_US">
+			<Text>Nursia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_26" Language="en_US">
+			<Text>Fervir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_27" Language="en_US">
+			<Text>Hallin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_28" Language="en_US">
+			<Text>Heruler</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_29" Language="en_US">
+			<Text>Bergio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MER_GOTHS_30" Language="en_US">
+			<Text>Theustes</Text>
+		</Row>
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_1" Language="en_US">
+			<Text>Ariaricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_2" Language="en_US">
+			<Text>Aoricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_3" Language="en_US">
+			<Text>Athalaricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_4" Language="en_US">
+			<Text>Athanaricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_5" Language="en_US">
+			<Text>Ermanaricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_6" Language="en_US">
+			<Text>Alatheus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_7" Language="en_US">
+			<Text>Odotheus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_8" Language="en_US">
+			<Text>Alaricus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_9" Language="en_US">
+			<Text>Fritigernus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MALE_10" Language="en_US">
+			<Text>Wingourichos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_1" Language="en_US">
+			<Text>Jungericus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_2" Language="en_US">
+			<Text>Gainas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_3" Language="en_US">
+			<Text>Sigericus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_4" Language="en_US">
+			<Text>Athaulphus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_5" Language="en_US">
+			<Text>Theodericus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_6" Language="en_US">
+			<Text>Ragnaris</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_7" Language="en_US">
+			<Text>Alfonsus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_8" Language="en_US">
+			<Text>Amalric</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_9" Language="en_US">
+			<Text>Ulfilas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_MALE_10" Language="en_US">
+			<Text>Marcomir</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_1" Language="en_US">
+			<Text>Talida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_2" Language="en_US">
+			<Text>Bjarka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_3" Language="en_US">
+			<Text>Amalda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_4" Language="en_US">
+			<Text>Geloyra</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_5" Language="en_US">
+			<Text>Hunila</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_6" Language="en_US">
+			<Text>Rasha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_7" Language="en_US">
+			<Text>Alisa-Sophie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_8" Language="en_US">
+			<Text>Avagisa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_9" Language="en_US">
+			<Text>Liuva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_FEMALE_10" Language="en_US">
+			<Text>Rautgundis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_1" Language="en_US">
+			<Text>Rasha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_2" Language="en_US">
+			<Text>Goisvintha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_3" Language="en_US">
+			<Text>Mira</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_4" Language="en_US">
+			<Text>Seda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_5" Language="en_US">
+			<Text>Amalasuintha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_6" Language="en_US">
+			<Text>Jeanne-Alice</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_7" Language="en_US">
+			<Text>Garsendis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_8" Language="en_US">
+			<Text>Sunilda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_9" Language="en_US">
+			<Text>Brunhilda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MER_GOTHS_MODERN_FEMALE_10" Language="en_US">
+			<Text>Elisaweta</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
