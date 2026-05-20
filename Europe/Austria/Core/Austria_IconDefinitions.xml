@@ -27,11 +27,6 @@
 		<Row Name="ICON_ATLAS_MER_GRENZER" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_50.dds"/>
 		<Row Name="ICON_ATLAS_MER_GRENZER" 	  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_80.dds"/>
 		<Row Name="ICON_ATLAS_MER_GRENZER" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_256.dds"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT" 	  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_32.dds"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT" 	  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_38.dds"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_50.dds"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT" 	  IconSize="80" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_80.dds"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT" 	  IconSize="256" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_GRENZER_256.dds"/>		
 		<Row Name="ICON_ATLAS_MER_COFFEE_HOUSE" 	  IconSize="32" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_COFFEE_HOUSE_32.dds"/>
 		<Row Name="ICON_ATLAS_MER_COFFEE_HOUSE" 	  IconSize="38" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_COFFEE_HOUSE_38.dds"/>
 		<Row Name="ICON_ATLAS_MER_COFFEE_HOUSE" 	  IconSize="50" 	IconsPerRow="1" IconsPerColumn="1" Filename="MER_COFFEE_HOUSE_50.dds"/>
@@ -43,7 +38,7 @@
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_MER_AUSTRIA" 		 Atlas="ICON_ATLAS_MER_AUSTRIA" 		Index="0"/>
 		<Row Name="ICON_UNIT_MER_GRENZER" 				 Atlas="ICON_ATLAS_MER_GRENZER" 		Index="0"/>
-		<Row Name="ICON_UNIT_GREAT_DIPLOMAT"			 Atlas="ICON_UNIT_GREAT_DIPLOMAT" 		Index="0"/>
+		<Row Name="ICON_UNIT_GREAT_DIPLOMAT"			 Atlas="ICON_ATLAS_EXPANSION_2_UNITS" 		Index="16"/>
 		<Row Name="ICON_UNIT_MER_GRENZER_PORTRAIT" 		 Atlas="PORTRAIT_ATLAS_MER_GRENZER" 		Index="0"/>
 		<Row Name="ICON_BUILDING_MER_COFFEE_HOUSE" 		 Atlas="ICON_ATLAS_MER_COFFEE_HOUSE" 		Index="0"/>
 		<Row Name="ICON_LEADER_MER_MARIA_THERESA" 			 Atlas="ICON_ATLAS_MER_MARIA_THERESA" 		Index="0"/>
