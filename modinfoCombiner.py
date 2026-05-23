@@ -27,7 +27,8 @@ def get_mod_folders():
         'NorthAmerica/ThuleKiviuq',
         'SteelThunderUnits',
         'Wonders/AreciboObservatory',
-        'Wonders/PorcelainTower'
+        'Wonders/PorcelainTower',
+        'BBGArtReplacement'
     ]
 
 def combine_modinfo_files():

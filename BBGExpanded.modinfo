@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Release ModID-->
-<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="122">
+<Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3e00" version="200">
 <!-- Published WIP ModID-->
 <!-- <Mod id="2a0aa96a-a31c-4ce2-87ec-09152f6f3888" version="200"> -->
 <!-- WIP ModID-->
@@ -117,6 +117,12 @@
 
 <Criteria id="XP2">
 <GameCoreInUse>Expansion2</GameCoreInUse>
+</Criteria>
+
+<Criteria id="Expansion1">
+<GameModeInUse>
+<GameCoreInUse>Expansion1</GameCoreInUse>
+</GameModeInUse>
 </Criteria>
 </ActionCriteria>
 <FrontEndActions>
@@ -516,6 +522,10 @@
 <LoadOrder>1</LoadOrder>
 </Properties>
 <File>SteelThunderUnits/MoarUniqueUnits.dep</File>
+</UpdateArt>
+
+<UpdateArt id="NewAction">
+<File>BBGArtReplacement/MC_MasterTemplate.dep</File>
 </UpdateArt>
 </FrontEndActions>
 <InGameActions>
@@ -1226,6 +1236,10 @@
 <UpdateText id="PorcText">
 <File>Wonders/PorcelainTower/Text/Porcelain_Tower_Text.xml</File>
 </UpdateText>
+
+<UpdateArt id="NewAction">
+<File>BBGArtReplacement/MC_MasterTemplate.dep</File>
+</UpdateArt>
 </InGameActions>
 <Files>
 <File>Africa/SwahiliAlHasanibn/ArtDefs/Buildings.artdef</File>
@@ -4788,6 +4802,16 @@
 <File>Wonders/PorcelainTower/Platforms/Windows/BLPs/UITextures.blp</File>
 <File>Wonders/PorcelainTower/Platforms/Windows/BLPs/WonderMovie.blp</File>
 <File>Wonders/PorcelainTower/Text/Porcelain_Tower_Text.xml</File>
+
+<File>BBGArtReplacement/ArtDefs/FallbackLeaders.artdef</File>
+<File>BBGArtReplacement/MC_MasterTemplate.Art.xml</File>
+<File>BBGArtReplacement/MC_MasterTemplate.dep</File>
+<File>BBGArtReplacement/Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+<File>BBGArtReplacement/Platforms/MacOS/BLPs/UI/Icons.blp</File>
+<File>BBGArtReplacement/Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+<File>BBGArtReplacement/Platforms/Windows/BLPs/UI/Icons.blp</File>
+<File>BBGArtReplacement/Textures/LEADER_ANACAONA_NEUTRAL.dds</File>
+<File>BBGArtReplacement/Textures/LEADER_ANACAONA_NEUTRAL.tex</File>
 </Files>
 <References>
 <Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="DELIVERATOR STEEL AND THUNDER"/>

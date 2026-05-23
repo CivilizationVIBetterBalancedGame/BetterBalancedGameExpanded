@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameDependencyData>
 	<ID>
-		<name text="CIVITAS [ICON_GREATPERSON] Anacaona"/>
-		<id text="0e755ff7-6e88-431f-a99a-5fe5e24cc857"/>
+		<name text="MC_MasterTemplate"/>
+		<id text="8c6472be-9b71-4608-b804-b4918e1eaddc"/>
 	</ID>
-	<RequiredGameArtIDs>
-		<Element>
-			<name text="Civ6"/>
-			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
-		</Element>
-	</RequiredGameArtIDs>
+	<RequiredGameArtIDs/>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>
@@ -31,11 +26,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Landmarks"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
@@ -63,19 +54,13 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Properties"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Sprite"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_Sprite"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -84,9 +69,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Route"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_Route"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -95,9 +78,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainType"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -108,9 +89,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlendCorners"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -119,9 +98,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlend"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -264,50 +241,31 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Improvements"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="WorldView_Translate"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Translate"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="Audio"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="Leaders.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderLighting"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -316,6 +274,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Leaders"/>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -326,7 +285,7 @@
 		<Element>
 			<ConsumerName text="LeaderFallback"/>
 			<ArtDefDependencyPaths>
-				<Element text="LeaderFallbacks.artdef"/>
+				<Element text="FallbackLeaders.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -341,11 +300,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="IndirectGrid"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -399,11 +354,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UnitSimulation"/>
-			<ArtDefDependencyPaths>
-				<Element text="Improvements.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -423,29 +374,7 @@
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
-			<ArtDefPath text="Improvements.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Improvements.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="Landmarks.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="StrategicView.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="Leaders.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="LeaderFallbacks.artdef"/>
+			<ArtDefPath text="FallbackLeaders.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 	</ArtDefDependencies>
@@ -522,9 +451,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_Sprite"/>
-			<PackageDependencies>
-				<Element text="strategicview/strategicview_improvements.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_TerrainBlend"/>
@@ -552,9 +479,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="TileBase"/>
-			<PackageDependencies>
-				<Element text="landmarks/tilebases.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
@@ -588,3 +513,4 @@
 		</Element>
 	</LibraryDependencies>
 </AssetObjects..GameDependencyData>
+
