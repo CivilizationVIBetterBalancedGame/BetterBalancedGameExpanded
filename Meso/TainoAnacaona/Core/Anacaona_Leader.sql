@@ -41,7 +41,7 @@ VALUES	('LEADER_CVS_ANACAONA',	'LOC_PEDIA_LEADERS_PAGE_CVS_ANACAONA_QUOTE'	);
 
 INSERT INTO	LoadingInfo
 		(LeaderType,			ForegroundImage,				BackgroundImage,					PlayDawnOfManAudio	)
-VALUES	('LEADER_CVS_ANACAONA',	'LEADER_CVS_ANACAONA_NEUTRAL',	'LEADER_CVS_ANACAONA_BACKGROUND',	0					);
+VALUES	('LEADER_CVS_ANACAONA',	'LEADER_ANACAONA_NEUTRAL',	'LEADER_CVS_ANACAONA_BACKGROUND',	0					);
 	
 -----------------------------------------------
 -- RequirementSetRequirements

@@ -25,7 +25,7 @@ VALUES	(
 		'LOC_TRAIT_LEADER_CVS_ANACAONA_UA_NAME', -- LeaderAbilityName
 		'LOC_TRAIT_LEADER_CVS_ANACAONA_UA_DESCRIPTION', -- LeaderAbilityDescription
 		'ICON_LEADER_CVS_ANACAONA', -- LeaderAbilityIcon
-		'LEADER_CVS_ANACAONA_NEUTRAL', -- Portrait
+		'LEADER_ANACAONA_NEUTRAL', -- Portrait
 		'LEADER_CVS_ANACAONA_BACKGROUND' -- PortraitBackground
 		);
 
