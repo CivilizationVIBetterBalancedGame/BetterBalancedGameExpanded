@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_GOTHS</CivilizationType>
+			<LeaderType>LEADER_MER_THEODORIC</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MER_GOTHS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MER_GOTHS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MER_THEODORIC_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MER_THEODORIC</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MER_GOTHIC_MIGRATION_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MER_GOTHS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MER_THEODORIC_GOTHORUM_ROMANORUMQUE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MER_THEODORIC</LeaderAbilityIcon>
+			<Portrait>LEADER_MER_THEODORIC_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_SALADIN_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_GOTHS</CivilizationType>
+			<LeaderType>LEADER_MER_THEODORIC</LeaderType>
+			<Type>BUILDING_MER_HLAIW</Type>
+			<Name>LOC_BUILDING_MER_HLAIW_NAME</Name>
+			<Description>LOC_BUILDING_MER_HLAIW_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_MER_HLAIW</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_GOTHS</CivilizationType>
+			<LeaderType>LEADER_MER_THEODORIC</LeaderType>
+			<Type>UNIT_MER_GADRAUHT</Type>
+			<Name>LOC_UNIT_MER_GADRAUHT_NAME</Name>
+			<Description>LOC_UNIT_MER_GADRAUHT_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_GADRAUHT</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MER_GOTHS</CivilizationType>
+			<LeaderType>LEADER_MER_THEODORIC</LeaderType>
+			<Type>UNIT_MER_MILITOND</Type>
+			<Name>LOC_UNIT_MER_MILITOND_NAME</Name>
+			<Description>LOC_UNIT_MER_MILITOND_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MER_MILITOND</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
+
+

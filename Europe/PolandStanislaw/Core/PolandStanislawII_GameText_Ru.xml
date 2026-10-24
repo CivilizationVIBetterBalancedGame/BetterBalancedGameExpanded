@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_JFD_STANISLAW_NAME" Language="ru_RU">
+			<Text>Станислав II</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_NAME" Language="ru_RU">
+			<Text>Обеды по четвергам</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_DESCRIPTION" Language="ru_RU">
+			<Text>Любит цивилизации с высоким уровнем [ICON_CULTURE] культуры. Старается привлекать много великих людей и симпатизирует тем, кто делает то же самое. Не любит цивилизации, игнорирующие привлечение великих людей.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_PATRONAGE" Language="ru_RU">
+			<Text>(Вы привлекаете множество великих людей.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_PATRONAGE" Language="ru_RU">
+			<Text>Станислав впечатлен вашим патронажем</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_CULTURE" Language="ru_RU">
+			<Text>(У вас богатая культура.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_CULTURE" Language="ru_RU">
+			<Text>Станислав рад вашей богатой и изысканной культуре</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JFD_STANISLAW_REASON_LAGS_PATRONAGE" Language="ru_RU">
+			<Text>(Вы привлекаете мало великих людей.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="ru_RU">
+			<Text>Станислав разочарован тем, что вы не покровительствуете талантам</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JFD_STANISLAW" Language="ru_RU">
+			<Text>Благородные люди Содружества избрали вас, Станислав из дома Понятовских, своим королем. На ваши плечи ложится задача поиска равновесия между золотой вольностью и народным просвещением. Окружите себя светилами науки и культуры, и тогда потомки запомнят вас Августом.</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_NAME" Language="ru_RU">
+			<Text>Эдукационная комиссия</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="ru_RU">
+			<Text>Театральные площади строятся в два раза быстрее. Здания театральной площади и литературные шедевры приносят +2 [ICON_SCIENCE] науки. Польша получает уникальный юнит "Улан" после изучения технологии "Литье".</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_TITLE" Language="ru_RU">
+			<Text>Станислав II</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_SUBTITLE" Language="ru_RU">
+			<Text>Король польский и великий князь литовский</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_QUOTE" Language="ru_RU">
+			<Text>Чтобы стать уверенным, нужно начать сомневаться.</Text>
+		</Row>
+		<!--UHLAN-->
+		<Row Tag="LOC_UNIT_JFD_UHLAN_NAME" Language="ru_RU">
+			<Text>Улан</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный польский юнит эпохи Возрождения, заменяющий кавалерию, если лидером является Станислав Понятовский. Получает боевой бонус при атаке с фланга.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_JFD_UHLAN_FLANKING_BONUS_DESCRIPTION" Language="ru_RU">
+			<Text>{1_Amount} боевой мощи при атаке с фланга</Text>
+		</Row>
+		<!--MOD SUPPORT-->
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--MOD-->
+		<Row Tag="LOC_MOD_JFD_POLAND_STANISLAW_II_DESCRIPTION" Language="en_US">
+			<Text>------------------------------------[NEWLINE]LEADER -- STANISLAW II[NEWLINE][NEWLINE]TRAIT - COMMISSION FOR NATIONAL EDUCATION[NEWLINE]Build Theatre Square districts in half the usual time. Theatre Square Buildings and Great Works of Writing yield +2 [ICON_SCIENCE] Science. Gain the Uhlan unique unit when they research the Metal Casting technology.[NEWLINE][NEWLINE]UNIT - UHLAN[NEWLINE]Polish unique Renaissance era unit that replaces the Cavalry when Stanislaw II is their leader. Receives a combat bonus when flanking.[NEWLINE][NEWLINE]AGENDA - THURSDAY DINNERS[NEWLINE]Likes civilizations with a high [ICON_CULTURE] Culture output. Will try to employ as many Great People as possible and will respect those who do the same. Dislikes civilizations who neglect to patronise Great People.</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_JFD_STANISLAW_NAME" Language="en_US">
+			<Text>Stanislaw II</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_NAME" Language="en_US">
+			<Text>Thursday Dinners</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_JFD_THURSDAY_DINNERS_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations with a high [ICON_CULTURE] Culture output. Will try to employ as many Great People as possible and will respect those who do the same. Dislikes civilizations who neglect to patronise Great People.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_PATRONAGE" Language="en_US">
+			<Text>(You have employed many Great People.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_PATRONAGE" Language="en_US">
+			<Text>Stanislaw is impressed by your exemplary patronage of arts and sciences</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JFD_STANISLAW_REASON_LEADS_CULTURE" Language="en_US">
+			<Text>(You are strong in Culture.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LEADS_CULTURE" Language="en_US">
+			<Text>Stanislaw is delighted by your swift cultural advancement</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JFD_STANISLAW_REASON_LAGS_PATRONAGE" Language="en_US">
+			<Text>(You have employed few Great People.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="en_US">
+			<Text>Stanislaw is disappointed by your lack of interest in patronising great individuals</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JFD_STANISLAW" Language="en_US">
+			<Text>The noble people of the Commonwealth have elected you, Stanislaw of house Poniatowski, as their new king. It is now your task to seek balance between the golden liberties of old and the need for public enlightenment in times to come. Surround yourself with men of culture and learning, and posterity will surely remember you as Augustus.</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_NAME" Language="en_US">
+			<Text>Commission for National Education</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JFD_NATIONAL_EDUCATION_DESCRIPTION" Language="en_US">
+			<Text>Build Theatre Square districts in half the usual time. Theatre Square Buildings and Great Works of Writing yield +2 [ICON_SCIENCE] Science. Gain the Uhlan unique unit when they research the Metal Casting technology.</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_TITLE" Language="en_US">
+			<Text>Stanislaw II</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_SUBTITLE" Language="en_US">
+			<Text>King of Poland, Grand Duke of Lithuania</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_QUOTE" Language="en_US">
+			<Text>In order to become certain, one must begin with doubting.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Stanislaw Antoni Poniatowski was born on 17 January 1732 to Stanislaw Poniatowski and Konstancja (née Czartoryska) Poniatowska. The Poniatowski family was among the highest-situated of the Polish nobility. He was educated by his mother, then by private tutors, including Russian ambassador Herman Karl von Keyserling. He did not have many friends in his teenage years; instead, he developed a fondness for books, which continued throughout his life. He made his first foreign voyage to Western Europe in 1748, when he accompanied the Russian army as it advanced to Germany.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Poniatowski owed his career to his family connections with the powerful Czartoryski family and their political faction, known as Familia. The Familia sent him in 1755 to Saint Petersburg in the service of Charles Hanbury Williams, who had been named British ambassador to Russia. In Saint Petersburg, Poniatowski met Catherine Alexeievna (the future empress Catherine the Great). The two became lovers. Poniatowski had to leave St. Petersburg twice, in July 1756 and August 1758 due to court intrigue.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Upon the death of Poland's King Augustus III in October 1763, negotiations began concerning the election of the new king. Catherine threw her support behind Poniatowski. The Russians spent about 2.5m rubles supporting his election, Poniatowski's supporters and opponents engaged in some military posturing and even minor clashes, and in the end, the Russian army was deployed only a few miles from the election sejm. In the end, there were no other serious contenders, and during the convocation sejm on 7 September 1764, the 32-year-old Poniatowski was elected king, with 5,584 votes.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>During the Sejm (Polish for "Parliament" or "Assembly") in October 1766, Poniatowski attempted to push a radical reform, restricting the disastrous liberum veto policy. He was opposed by conservatives, who were supported by the Prussian and Russian ambassadors. Abandoned by the Familia, Poniatowski's reforms failed to pass. Meanwhile, some factions now rallied under the banner of the Bar Confederation, aimed against the dissidents, Poniatowski and the Russians. After an unsuccessful attempt to find allies in Western Europe, Poniatowski and the Familia had no choice but to rely more heavily on the Russian Empire, which treated Poland as a protectorate. Faced with the weakness of Poland and continuing chaos, Austria, Russia and Prussia decided to intervene militarily, in exchange for significant territorial concessions from the Commonwealth. Although Poniatowski protested the First Partition of the Commonwealth in 1772, he was powerless to do anything about it.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Eventually Poniatowski and the Sejm acceded to the partition treaty; at the same time, several other reforms were passed. Royal power was restricted. The Sejm created two notable institutions: the Permanent Council, a main governmental body in continuous operation, and the Commission of National Education. The partitioners intended the Council to be easier to control than the unruly Sejm, and indeed it remained under the influence of the Russian Empire. Nevertheless, it was a significant improvement in the Commonwealth governance. The new legislation was guaranteed by the Russian Empire, giving it another excuse to interfere in Commonwealth politics if the legislation it favored was changed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>In the context of the wars being waged against the Ottoman Empire by both the Austrian Empire and the Russian Empire, Poniatowski tried to draw Poland into the Austro-Russian alliance. Ultimately, the Polish-Russian alliance was not implemented. However, in the ensuing Four-Year Sejm of 1788–92 (known as the Great Sejm), Poniatowski threw his lot with the reformers and co-authored the Constitution of 3 May 1791. The Constitution introduced sweeping reforms. Poniatowski himself described it, according to a contemporary account, as "founded principally on those of England and the United States of America, but avoiding the faults and errors of both, and adapted as much as possible to the local and particular circumstances of the country."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>Shortly thereafter, conservative Polish nobility formed the Targowica Confederation to overthrow the Constitution, which they saw as a threat to the traditional freedoms and privileges they enjoyed. The confederates aligned themselves with Russia's Catherine the Great, and the Russian army entered Poland, marking the start of the Polish–Russian War of 1792, also known as the War in Defense of the Constitution. The Sejm voted to increase the Polish Army to 100,000 men, but due to insufficient time and funds this number was never achieved. Poniatowski's attempts at negotiations with Russia proved futile. On 24 July 1792, Poniatowski joined the Targowica Confederation. Despite, or because of, changing sides, Poniatowski had not saved the Commonwealth. He and the reformers had lost much of their influence, both within the country and with Catherine. Neither were the Targowica Confederates victorious. To their surprise, there ensued the Second Partition of Poland. Faced with his powerlessness, Poniatowski considered abdication; in the meantime he tried to salvage whatever reforms he could.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Poniatowski's plans were ruined by the anti-Russian Kosciuszko Uprising. The king did not encourage it, but once it began he supported it, seeing no other honorable option. Its defeat marked the end of the Commonwealth. Poniatowski tried to govern the country in the brief period after the defeat of the Uprising, but on 2 December 1794, Catherine demanded that he leave Warsaw, a request to which he acceded on 7 January 1795, leaving the capital under Russian military escort and settling briefly in Grodno. On 24 October 1795, the act of the final, Third Partition of Poland was signed; one month and one day later, on 25 November, Poniatowski signed his abdication. He died after a stroke on 12 February 1798.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Poland under Stanislaw II gently melds culture, science and the military together, while relying on her citizens to fuel her scientific and cultural advancement, with sure, even if unpredictable results.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JFD_STANISLAW_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Similarly to Jadwiga's personal ability, Stanislaw can benefit from constructing Encampment districts in every city: in addition to claiming surrounding tiles, completing an Encampment will provide a random Eureka boost. In analogy, constructing a Theatre Square will bestow an Inspiration moment. Emphasis on culture and military shouldn't halt scientific progress, as Stanislaw's cultural buildings yield a small amount of Science each. If lacking, Production and Gold can be relatively easily boosted with Poland's unique market building and internal trade routes. Mid-game security is granted by the Uhlan unique unit, a highly mobile light cavalry unit striking hard when flanking an enemy. Overall playstyle should be focused on careful city and district management, ideally with Commercial Hubs, Theatre Squares and Encampments in every city. Such a foundation will provide a solid base for a balanced growth throughout the game, leading to a Victory condition of your choice.</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->		
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Welcome, welcome, noble guest! The table has just been set. I am Stanislaw, the patron of this here realm.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Will you join me in my palace gardens? I assure you, 'tis a place far removed from worldly concerns.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Splendid! My envoys shall arrive shortly and take note of your domain.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I propose that we exchange information on our capitals. We have much to learn about each other.</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Hello, noble guest.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I have welcomed your delegates personally. They shall be placed in the finest quarters available.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>My people do not wish for foreign interference. Your delegation has been turned away.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I have dispatched an envoy to your capital, bearing gifts of our finest pheasant roast and flavoured liquor. I trust you will find them delightful.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>The Sejm and myself both agree.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I have not received the Sejm's permission to ratify this agreement.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>My people have expressed interest in an open borders agreement. They wish to travel and explore the broader world.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I wholeheartedly agree. I've been meaning to propose this myself to speak the truth.</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Not at this time, no.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>You've been good company to me for quite a while. Shall we declare our friendship to the world?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Thank you, thank you indeed!</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I understand, but it saddens me.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>The Commonwealth expresses interest in finding a firm and trusted ally in this treacherous world. Are you willing to become one?</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->	
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>My palace doors are always to someone as enlightened as you.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>You scare my peacocks, you unenlightened brute. Get off my lawn.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>If you think that you can rattle your sabre and my people will not rise up and respond to it, you are gravely mistaken.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_FREDERICK_ANY}</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JFD_FREDERICK_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>This will not do. News of your treachery will soon spread in pamphlets far and wide.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>I cannot abide your despicable behaviour any longer. My patience has run out. (Denounces You).</Text>
+		</Row>
+		<!--Rationale-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_JFD_THURSDAY_DINNERS_LAGS_PATRONAGE" Language="en_US">
+			<Text>(You have employed few Great People.)</Text>
+		</Row>	
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>So be it. I shall propose a motion in the Sejm to raise war taxes immediately.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>The Sejm has elected that our nations shall enter into a state of war. Ready yourself.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>The Sejm has agreed to ratify this peace treaty between our nations.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>The Sejm will never accept such humiliating terms. Hostilities shall continue.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>Our nations are weary of war. Let us lay down arms and rebuild.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>In this event of defeat, I shall abdicate. The Crown is yours.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JFD_STANISLAW_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JFD_STANISLAW_ANY]</Text>
+		</Row>
+		<!--UHLAN-->
+		<Row Tag="LOC_UNIT_JFD_UHLAN_NAME" Language="en_US">
+			<Text>Uhlan</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JFD_UHLAN_DESCRIPTION" Language="en_US">
+			<Text>Polish unique Renaissance era unit that replaces the Cavalry when Stanislaw II is their leader. Receives a combat bonus when flanking.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JFD_UHLAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Uhlan was a Polish light cavalry unit armed with lances, sabres, and pistols which came to frequent the armies of 18th and 19th century Russia, Prussia, and Austria. Descendents of the Tartar settlers of Lithuania, the first Uhlan regiment was created by the Polish-Lithuanian Commonwealth in the early 1700s. Swift and unobstructed by the cumbersome armor which had previously dominated mounted warfare, the Uhlan quickly grew in popular use for their versatility and speed; able to conduct reconnaissance, skirmishes, or to head-on charges. Today, a ceremonial regiment of Uhlans is retained by the Polish Armed Forces.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_JFD_UHLAN_FLANKING_BONUS_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount} Combat Strength when flanking</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
